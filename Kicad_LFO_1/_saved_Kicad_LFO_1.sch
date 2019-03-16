@@ -39,12 +39,12 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5C8C1936
-P 7375 2275
-F 0 "C?" H 7490 2321 50  0000 L CNN
-F 1 "10n" H 7490 2230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7413 2125 50  0001 C CNN
-F 3 "~" H 7375 2275 50  0001 C CNN
-	1    7375 2275
+P 7625 2275
+F 0 "C?" H 7740 2321 50  0000 L CNN
+F 1 "10n" H 7740 2230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7663 2125 50  0001 C CNN
+F 3 "~" H 7625 2275 50  0001 C CNN
+	1    7625 2275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -92,8 +92,6 @@ Wire Wire Line
 	8875 1875 9125 1875
 Wire Wire Line
 	9125 1875 9125 1425
-Wire Wire Line
-	7375 1875 7875 1875
 Wire Wire Line
 	8375 2275 8375 2575
 Connection ~ 9125 2575
@@ -225,21 +223,9 @@ F 1 "555 Reset" H 6855 2309 50  0000 C CNN
 F 2 "" H 6825 2075 50  0001 C CNN
 F 3 "~" H 6825 2075 50  0001 C CNN
 	1    6825 2075
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	7025 1975 7175 1975
-Wire Wire Line
-	7175 2475 7375 2475
 Connection ~ 7375 2475
-Wire Wire Line
-	7375 2475 7375 2425
-Wire Wire Line
-	7025 2175 7075 2175
-Wire Wire Line
-	7075 2175 7075 1425
-Wire Wire Line
-	7075 1425 7550 1425
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5C8C72C2
@@ -262,20 +248,9 @@ Wire Wire Line
 	9925 2575 9625 2575
 Wire Wire Line
 	8950 2075 8950 2400
-Wire Wire Line
-	8950 2400 7700 2400
-Wire Wire Line
-	7700 2400 7700 1675
 Connection ~ 8950 2075
 Wire Wire Line
 	8950 2075 9125 2075
-Wire Wire Line
-	7700 1675 7875 1675
-Wire Wire Line
-	7700 1675 7700 975 
-Wire Wire Line
-	7700 975  8275 975 
-Connection ~ 7700 1675
 Wire Wire Line
 	7550 2075 7550 1800
 Connection ~ 7550 2075
@@ -305,9 +280,49 @@ Wire Wire Line
 Wire Wire Line
 	10025 2075 9125 2075
 Wire Wire Line
-	7025 2075 7550 2075
+	7025 2075 7150 2075
+$Comp
+L Device:R R?
+U 1 1 5C96CA41
+P 7300 2075
+F 0 "R?" V 7093 2075 50  0000 C CNN
+F 1 "1R1" V 7184 2075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7230 2075 50  0001 C CNN
+F 3 "~" H 7300 2075 50  0001 C CNN
+	1    7300 2075
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	7175 1975 7175 2475
+	7450 2075 7550 2075
 Wire Wire Line
-	7375 1875 7375 2125
+	7625 2125 7625 1875
+Wire Wire Line
+	7625 1875 7875 1875
+Wire Wire Line
+	7375 2475 7625 2475
+Wire Wire Line
+	7625 2475 7625 2425
+Wire Wire Line
+	8950 2400 7825 2400
+Wire Wire Line
+	7825 1675 7825 2400
+Connection ~ 7825 1675
+Wire Wire Line
+	7825 1675 7875 1675
+Wire Wire Line
+	7825 1675 7825 975 
+Wire Wire Line
+	7825 975  8275 975 
+Wire Wire Line
+	7100 2475 7375 2475
+Wire Wire Line
+	7025 2175 7100 2175
+Wire Wire Line
+	7100 2175 7100 2475
+Wire Wire Line
+	7025 1975 7100 1975
+Wire Wire Line
+	7100 1975 7100 1425
+Wire Wire Line
+	7100 1425 7550 1425
 $EndSCHEMATC
