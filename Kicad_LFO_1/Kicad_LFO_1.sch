@@ -325,4 +325,130 @@ Wire Wire Line
 	7100 1975 7100 1425
 Wire Wire Line
 	7100 1425 7550 1425
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 5C97E381
+P 3175 2325
+F 0 "U?" H 3175 2692 50  0000 C CNN
+F 1 "TL072" H 3175 2601 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3175 2325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3175 2325 50  0001 C CNN
+	1    3175 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 2 1 5C98519D
+P 3200 2800
+F 0 "U?" H 3200 3167 50  0000 C CNN
+F 1 "TL072" H 3200 3076 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3200 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 2800 50  0001 C CNN
+	2    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 5C987890
+P 1350 1050
+F 0 "U?" H 1308 1096 50  0000 L CNN
+F 1 "TL072" H 1308 1005 50  0000 L CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 1350 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1350 1050 50  0001 C CNN
+	3    1350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:+12V #PWR?
+U 1 1 5C98B735
+P 1500 675
+F 0 "#PWR?" H 1500 525 50  0001 C CNN
+F 1 "+12V" H 1515 848 50  0000 C CNN
+F 2 "" H 1500 675 50  0001 C CNN
+F 3 "" H 1500 675 50  0001 C CNN
+	1    1500 675 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5C98BFBF
+P 1500 1050
+F 0 "#PWR?" H 1500 800 50  0001 C CNN
+F 1 "GND" H 1505 877 50  0000 C CNN
+F 2 "" H 1500 1050 50  0001 C CNN
+F 3 "" H 1500 1050 50  0001 C CNN
+	1    1500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 5C98C704
+P 1500 1400
+F 0 "#PWR?" H 1500 1500 50  0001 C CNN
+F 1 "-12V" H 1515 1573 50  0000 C CNN
+F 2 "" H 1500 1400 50  0001 C CNN
+F 3 "" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Eurorack:HEADER_2x5_Doepfer P?
+U 1 1 5C98EFA7
+P 1900 1050
+F 0 "P?" H 1900 552 40  0000 C CNN
+F 1 "HEADER_2x5_Doepfer" H 1900 628 40  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1900 719 60  0000 C CNN
+F 3 "" H 1900 1050 60  0000 C CNN
+	1    1900 1050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 1150 1750 1050
+Connection ~ 1750 1050
+Wire Wire Line
+	1750 1050 1750 950 
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5C991983
+P 2250 1050
+F 0 "#PWR?" H 2250 800 50  0001 C CNN
+F 1 "GND" H 2255 877 50  0000 C CNN
+F 2 "" H 2250 1050 50  0001 C CNN
+F 3 "" H 2250 1050 50  0001 C CNN
+	1    2250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1150 2050 1050
+Connection ~ 2050 1050
+Wire Wire Line
+	2050 1050 2050 950 
+Wire Wire Line
+	2050 1050 2250 1050
+Wire Wire Line
+	1750 1050 1500 1050
+Wire Wire Line
+	1750 1250 1500 1250
+Wire Wire Line
+	1500 1250 1500 1350
+Wire Wire Line
+	2050 1250 2050 1350
+Wire Wire Line
+	2050 1350 1500 1350
+Connection ~ 1500 1350
+Wire Wire Line
+	1500 1350 1500 1400
+Wire Wire Line
+	2050 850  2050 750 
+Wire Wire Line
+	2050 750  1500 750 
+Wire Wire Line
+	1750 850  1500 850 
+Wire Wire Line
+	1500 850  1500 750 
+Connection ~ 1500 750 
+Wire Wire Line
+	1250 750  1500 750 
+Wire Wire Line
+	1250 1350 1500 1350
 $EndSCHEMATC
