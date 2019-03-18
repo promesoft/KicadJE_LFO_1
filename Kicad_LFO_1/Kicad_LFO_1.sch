@@ -15,21 +15,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer:LM555 U?
+L Timer:LM555 U101
 U 1 1 5C8C1824
 P 8375 1875
-F 0 "U?" H 8375 2453 50  0000 C CNN
+F 0 "U101" H 8375 2453 50  0000 C CNN
 F 1 "LM555" H 8375 2362 50  0000 C CNN
-F 2 "" H 8375 1875 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8375 1875 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 8375 1875 50  0001 C CNN
 	1    8375 1875
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C102
 U 1 1 5C8C1899
 P 9125 2325
-F 0 "C?" H 9240 2371 50  0000 L CNN
+F 0 "C102" H 9240 2371 50  0000 L CNN
 F 1 "1u" H 9240 2280 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9163 2175 50  0001 C CNN
 F 3 "~" H 9125 2325 50  0001 C CNN
@@ -37,21 +37,21 @@ F 3 "~" H 9125 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C101
 U 1 1 5C8C1936
-P 7375 2225
-F 0 "C?" H 7490 2271 50  0000 L CNN
-F 1 "10n" H 7490 2180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7413 2075 50  0001 C CNN
-F 3 "~" H 7375 2225 50  0001 C CNN
-	1    7375 2225
+P 7625 2275
+F 0 "C101" H 7740 2321 50  0000 L CNN
+F 1 "10n" H 7740 2230 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7663 2125 50  0001 C CNN
+F 3 "~" H 7625 2275 50  0001 C CNN
+	1    7625 2275
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR0101
 U 1 1 5C8C1997
 P 9125 2675
-F 0 "#PWR?" H 9125 2425 50  0001 C CNN
+F 0 "#PWR0101" H 9125 2425 50  0001 C CNN
 F 1 "GND" H 9130 2502 50  0000 C CNN
 F 2 "" H 9125 2675 50  0001 C CNN
 F 3 "" H 9125 2675 50  0001 C CNN
@@ -59,14 +59,14 @@ F 3 "" H 9125 2675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR0102
 U 1 1 5C8C19AF
-P 7375 2525
-F 0 "#PWR?" H 7375 2275 50  0001 C CNN
-F 1 "GND" H 7380 2352 50  0000 C CNN
-F 2 "" H 7375 2525 50  0001 C CNN
-F 3 "" H 7375 2525 50  0001 C CNN
-	1    7375 2525
+P 7375 2575
+F 0 "#PWR0102" H 7375 2325 50  0001 C CNN
+F 1 "GND" H 7380 2402 50  0000 C CNN
+F 2 "" H 7375 2575 50  0001 C CNN
+F 3 "" H 7375 2575 50  0001 C CNN
+	1    7375 2575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -76,12 +76,12 @@ Wire Wire Line
 Wire Wire Line
 	9125 2675 9125 2575
 Wire Wire Line
-	7375 2525 7375 2425
+	7375 2575 7375 2475
 $Comp
-L Device:R R?
+L Device:R R101
 U 1 1 5C8C1A15
 P 8425 975
-F 0 "R?" V 8218 975 50  0000 C CNN
+F 0 "R101" V 8218 975 50  0000 C CNN
 F 1 "1k" V 8309 975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8355 975 50  0001 C CNN
 F 3 "~" H 8425 975 50  0001 C CNN
@@ -93,10 +93,6 @@ Wire Wire Line
 Wire Wire Line
 	9125 1875 9125 1425
 Wire Wire Line
-	7375 2075 7375 1875
-Wire Wire Line
-	7375 1875 7875 1875
-Wire Wire Line
 	8375 2275 8375 2575
 Connection ~ 9125 2575
 Wire Wire Line
@@ -104,10 +100,10 @@ Wire Wire Line
 Wire Wire Line
 	8375 1425 8375 1475
 $Comp
-L Device:R R?
+L Device:R R103
 U 1 1 5C8C1F15
 P 9375 1675
-F 0 "R?" V 9168 1675 50  0000 C CNN
+F 0 "R103" V 9168 1675 50  0000 C CNN
 F 1 "100r" V 9259 1675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9305 1675 50  0001 C CNN
 F 3 "~" H 9375 1675 50  0001 C CNN
@@ -117,10 +113,10 @@ $EndComp
 Wire Wire Line
 	8875 1675 9225 1675
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:+12V #PWR?
+L Envelope-cache-2018-08-04-13-00-04:+12V #PWR0103
 U 1 1 5C8C2135
 P 7975 1275
-F 0 "#PWR?" H 7975 1125 50  0001 C CNN
+F 0 "#PWR0103" H 7975 1125 50  0001 C CNN
 F 1 "+12V" H 7990 1448 50  0000 C CNN
 F 2 "" H 7975 1275 50  0001 C CNN
 F 3 "" H 7975 1275 50  0001 C CNN
@@ -141,21 +137,21 @@ Connection ~ 9125 1425
 Wire Wire Line
 	9025 975  9125 975 
 $Comp
-L Switch:SW_SPDT SW?
+L Switch:SW_SPDT SW101
 U 1 1 5C8C32B1
 P 9325 2075
-F 0 "SW?" H 9325 2360 50  0000 C CNN
+F 0 "SW101" H 9325 2360 50  0000 C CNN
 F 1 "LFO Low" H 9325 2269 50  0000 C CNN
-F 2 "" H 9325 2075 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:SP1MS1" H 9325 2075 50  0001 C CNN
 F 3 "~" H 9325 2075 50  0001 C CNN
 	1    9325 2075
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C103
 U 1 1 5C8C3B36
 P 9625 2325
-F 0 "C?" H 9743 2371 50  0000 L CNN
+F 0 "C103" H 9743 2371 50  0000 L CNN
 F 1 "47u" H 9743 2280 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9663 2175 50  0001 C CNN
 F 3 "~" H 9625 2325 50  0001 C CNN
@@ -176,25 +172,25 @@ Wire Wire Line
 Wire Wire Line
 	9125 975  9125 1275
 $Comp
-L Device:R_POT_Dual_Separate RV?
-U 1 1 5C8C5417
+L Device:R_POT_Dual_Separate RV101
+U 2 1 5C8C5417
 P 8775 1425
-F 0 "RV?" V 8661 1425 50  0000 C CNN
+F 0 "RV101" V 8661 1425 50  0000 C CNN
 F 1 "200k" V 8570 1425 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal" H 8775 1425 50  0001 C CNN
 F 3 "~" H 8775 1425 50  0001 C CNN
-	1    8775 1425
+	2    8775 1425
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_POT_Dual_Separate RV?
-U 2 1 5C8C547E
+L Device:R_POT_Dual_Separate RV101
+U 1 1 5C8C547E
 P 8875 975
-F 0 "RV?" V 8761 975 50  0000 C CNN
+F 0 "RV101" V 8761 975 50  0000 C CNN
 F 1 "200k" V 8670 975 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal" H 8875 975 50  0001 C CNN
 F 3 "~" H 8875 975 50  0001 C CNN
-	2    8875 975 
+	1    8875 975 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -208,10 +204,10 @@ Connection ~ 9125 1275
 Wire Wire Line
 	9125 1275 9125 1425
 $Comp
-L Device:R R?
+L Device:R R102
 U 1 1 5C8C5CDB
 P 7550 1650
-F 0 "R?" H 7480 1604 50  0000 R CNN
+F 0 "R102" H 7480 1604 50  0000 R CNN
 F 1 "10k" H 7480 1695 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7480 1650 50  0001 C CNN
 F 3 "~" H 7550 1650 50  0001 C CNN
@@ -219,40 +215,24 @@ F 3 "~" H 7550 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L Connector:AudioJack2_SwitchT J102
 U 1 1 5C8C5E07
 P 6825 2075
-F 0 "J?" H 6855 2400 50  0000 C CNN
+F 0 "J102" H 6855 2400 50  0000 C CNN
 F 1 "555 Reset" H 6855 2309 50  0000 C CNN
-F 2 "" H 6825 2075 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 6825 2075 50  0001 C CNN
 F 3 "~" H 6825 2075 50  0001 C CNN
 	1    6825 2075
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	7025 1975 7175 1975
-Wire Wire Line
-	7175 1975 7175 2425
-Wire Wire Line
-	7175 2425 7375 2425
-Connection ~ 7375 2425
-Wire Wire Line
-	7375 2425 7375 2375
-Wire Wire Line
-	7025 2175 7075 2175
-Wire Wire Line
-	7075 2175 7075 1425
-Wire Wire Line
-	7075 1425 7550 1425
-Wire Wire Line
-	7025 2075 7375 2075
+Connection ~ 7375 2475
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L Connector:AudioJack2_SwitchT J101
 U 1 1 5C8C72C2
 P 10225 1675
-F 0 "J?" H 10045 1700 50  0000 R CNN
+F 0 "J101" H 10045 1700 50  0000 R CNN
 F 1 "LFO555" H 10045 1609 50  0000 R CNN
-F 2 "" H 10225 1675 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10225 1675 50  0001 C CNN
 F 3 "~" H 10225 1675 50  0001 C CNN
 	1    10225 1675
 	-1   0    0    -1  
@@ -263,28 +243,14 @@ Wire Wire Line
 Wire Wire Line
 	10025 1575 9925 1575
 Wire Wire Line
-	9925 1575 9925 2575
+	9925 1575 9925 1975
 Wire Wire Line
 	9925 2575 9625 2575
-Connection ~ 7375 2075
-Wire Wire Line
-	7375 2075 7550 2075
 Wire Wire Line
 	8950 2075 8950 2400
-Wire Wire Line
-	8950 2400 7700 2400
-Wire Wire Line
-	7700 2400 7700 1675
 Connection ~ 8950 2075
 Wire Wire Line
 	8950 2075 9125 2075
-Wire Wire Line
-	7700 1675 7875 1675
-Wire Wire Line
-	7700 1675 7700 975 
-Wire Wire Line
-	7700 975  8275 975 
-Connection ~ 7700 1675
 Wire Wire Line
 	7550 2075 7550 1800
 Connection ~ 7550 2075
@@ -295,4 +261,68 @@ Wire Wire Line
 	7550 1425 7975 1425
 Wire Wire Line
 	7550 2075 7875 2075
+$Comp
+L Connector:AudioJack2_SwitchT J103
+U 1 1 5C967F7C
+P 10225 2075
+F 0 "J103" H 10045 2100 50  0000 R CNN
+F 1 "LFO555Charge" H 10045 2009 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10225 2075 50  0001 C CNN
+F 3 "~" H 10225 2075 50  0001 C CNN
+	1    10225 2075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10025 1975 9925 1975
+Connection ~ 9925 1975
+Wire Wire Line
+	9925 1975 9925 2575
+Wire Wire Line
+	10025 2075 9125 2075
+Wire Wire Line
+	7025 2075 7150 2075
+$Comp
+L Device:R R104
+U 1 1 5C96CA41
+P 7300 2075
+F 0 "R104" V 7093 2075 50  0000 C CNN
+F 1 "1R1" V 7184 2075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7230 2075 50  0001 C CNN
+F 3 "~" H 7300 2075 50  0001 C CNN
+	1    7300 2075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2075 7550 2075
+Wire Wire Line
+	7625 2125 7625 1875
+Wire Wire Line
+	7625 1875 7875 1875
+Wire Wire Line
+	7375 2475 7625 2475
+Wire Wire Line
+	7625 2475 7625 2425
+Wire Wire Line
+	8950 2400 7825 2400
+Wire Wire Line
+	7825 1675 7825 2400
+Connection ~ 7825 1675
+Wire Wire Line
+	7825 1675 7875 1675
+Wire Wire Line
+	7825 1675 7825 975 
+Wire Wire Line
+	7825 975  8275 975 
+Wire Wire Line
+	7100 2475 7375 2475
+Wire Wire Line
+	7025 2175 7100 2175
+Wire Wire Line
+	7100 2175 7100 2475
+Wire Wire Line
+	7025 1975 7100 1975
+Wire Wire Line
+	7100 1975 7100 1425
+Wire Wire Line
+	7100 1425 7550 1425
 $EndSCHEMATC
