@@ -404,9 +404,9 @@ Wire Wire Line
 	1500 850  1500 750 
 Connection ~ 1500 750 
 Wire Wire Line
-	1250 750  1500 750 
+	1250 750  1375 750 
 Wire Wire Line
-	1250 1350 1500 1350
+	1250 1350 1375 1350
 Text GLabel 10225 3750 0    50   Input ~ 0
 Reset
 Text GLabel 7025 2075 0    50   Input ~ 0
@@ -610,8 +610,8 @@ L Envelope-cache-2018-08-04-13-00-04:POT RV?
 U 1 1 5C9DCD9C
 P 1700 3775
 F 0 "RV?" V 1493 3775 50  0000 C CNN
-F 1 "POT" V 1584 3775 50  0000 C CNN
-F 2 "" H 1700 3775 50  0001 C CNN
+F 1 "10k Sine" V 1584 3775 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 1700 3775 50  0001 C CNN
 F 3 "" H 1700 3775 50  0001 C CNN
 	1    1700 3775
 	0    1    1    0   
@@ -789,4 +789,36 @@ Wire Wire Line
 Connection ~ 2200 4225
 Wire Wire Line
 	2200 4225 2375 4225
+$Comp
+L Device:C C?
+U 1 1 5CA2E87B
+P 1375 900
+F 0 "C?" V 1490 946 50  0000 L CNN
+F 1 "4u7" V 1500 750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1413 750 50  0001 C CNN
+F 3 "~" H 1375 900 50  0001 C CNN
+	1    1375 900 
+	-1   0    0    1   
+$EndComp
+Connection ~ 1375 750 
+Wire Wire Line
+	1375 750  1500 750 
+$Comp
+L Device:C C?
+U 1 1 5CA2EF8F
+P 1375 1200
+F 0 "C?" V 1490 1246 50  0000 L CNN
+F 1 "4u7" V 1500 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1413 1050 50  0001 C CNN
+F 3 "~" H 1375 1200 50  0001 C CNN
+	1    1375 1200
+	-1   0    0    1   
+$EndComp
+Connection ~ 1375 1350
+Wire Wire Line
+	1375 1350 1500 1350
+Wire Wire Line
+	1375 1050 1500 1050
+Connection ~ 1375 1050
+Connection ~ 1500 1050
 $EndSCHEMATC
