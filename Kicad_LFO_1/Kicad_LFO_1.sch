@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "555 LFO1"
+Date "2019-03-19"
+Rev "Rev A"
+Comp "Johansen Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -815,8 +815,6 @@ $EndComp
 Connection ~ 1375 1350
 Wire Wire Line
 	1375 1350 1500 1350
-Wire Wire Line
-	1375 1050 1500 1050
 Connection ~ 1375 1050
 Connection ~ 1500 1050
 $Comp
@@ -865,4 +863,39 @@ U 5CAAE8D3
 F0 "KicadJE_MMX2" 50
 F1 "KicadJE_MMX2.sch" 50
 $EndSheet
+$Comp
+L Device:LED D?
+U 1 1 5CAF5061
+P 900 1200
+AR Path="/5CAAE8D3/5CAF5061" Ref="D?"  Part="1" 
+AR Path="/5CAF5061" Ref="D103"  Part="1" 
+F 0 "D103" V 939 1083 50  0000 R CNN
+F 1 "LED" V 848 1083 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 900 1200 50  0001 C CNN
+F 3 "~" H 900 1200 50  0001 C CNN
+	1    900  1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  1350 1250 1350
+$Comp
+L Device:R R112
+U 1 1 5CAF5069
+P 1100 1050
+AR Path="/5CAF5069" Ref="R112"  Part="1" 
+AR Path="/5C8C5FC0/5CAF5069" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5CAF5069" Ref="R?"  Part="1" 
+F 0 "R112" V 893 1050 50  0000 C CNN
+F 1 "22k" V 984 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 1050 50  0001 C CNN
+F 3 "~" H 1100 1050 50  0001 C CNN
+	1    1100 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	950  1050 900  1050
+Wire Wire Line
+	1375 1050 1500 1050
+Wire Wire Line
+	1250 1050 1375 1050
 $EndSCHEMATC

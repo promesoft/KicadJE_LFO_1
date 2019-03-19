@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title ""
-Date ""
-Rev ""
-Comp ""
+Date "2019-03-19"
+Rev "Rev A"
+Comp "Johansen Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -829,10 +829,10 @@ F 3 "" H 3050 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D201
 U 1 1 5CAEA458
 P 2050 1600
-F 0 "D?" V 2089 1483 50  0000 R CNN
+F 0 "D201" V 2089 1483 50  0000 R CNN
 F 1 "LED" V 1998 1483 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 1600 50  0001 C CNN
 F 3 "~" H 2050 1600 50  0001 C CNN
@@ -852,8 +852,8 @@ U 1 1 5CAF2EEB
 P 2250 1350
 AR Path="/5CAF2EEB" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5CAF2EEB" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5CAF2EEB" Ref="R?"  Part="1" 
-F 0 "R?" V 2043 1350 50  0000 C CNN
+AR Path="/5CAAE8D3/5CAF2EEB" Ref="R215"  Part="1" 
+F 0 "R215" V 2043 1350 50  0000 C CNN
 F 1 "22k" V 2134 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2180 1350 50  0001 C CNN
 F 3 "~" H 2250 1350 50  0001 C CNN
