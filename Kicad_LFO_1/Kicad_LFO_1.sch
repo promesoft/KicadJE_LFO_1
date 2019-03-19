@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -859,4 +859,10 @@ Wire Wire Line
 	9825 3525 9825 3850
 Wire Wire Line
 	1500 750  1500 675 
+$Sheet
+S 1000 5000 3300 2500
+U 5CAAE8D3
+F0 "KicadJE_MMX2" 50
+F1 "KicadJE_MMX2.sch" 50
+$EndSheet
 $EndSCHEMATC
