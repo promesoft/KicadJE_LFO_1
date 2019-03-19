@@ -840,7 +840,7 @@ F 3 "~" H 2050 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2500 1350 2400 1350
+	2500 1350 2425 1350
 Wire Wire Line
 	2050 1350 2050 1450
 Wire Wire Line
@@ -862,4 +862,21 @@ F 3 "~" H 2250 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 1350 2050 1350
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5CB1AE2B
+P 2425 1350
+AR Path="/5CB1AE2B" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5CB1AE2B" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/5CB1AE2B" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2425 1100 50  0001 C CNN
+F 1 "GND" H 2430 1177 50  0000 C CNN
+F 2 "" H 2425 1350 50  0001 C CNN
+F 3 "" H 2425 1350 50  0001 C CNN
+	1    2425 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2425 1350
+Wire Wire Line
+	2425 1350 2400 1350
 $EndSCHEMATC
