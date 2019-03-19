@@ -738,12 +738,12 @@ Wire Wire Line
 	3300 1700 3300 1750
 Connection ~ 3300 1750
 Wire Wire Line
-	3300 1750 3700 1750
+	3300 1750 3525 1750
 Wire Wire Line
 	3300 1000 3300 950 
 Connection ~ 3300 950 
 Wire Wire Line
-	3300 950  3700 950 
+	3300 950  3525 950 
 Wire Wire Line
 	2000 5850 2150 5850
 Connection ~ 2150 5850
@@ -879,4 +879,47 @@ $EndComp
 Connection ~ 2425 1350
 Wire Wire Line
 	2425 1350 2400 1350
+Text Label 5025 2750 0    50   ~ 0
+Inv1
+Text Label 4900 4650 0    50   ~ 0
+Inv2
+$Comp
+L Device:C C?
+U 1 1 5CB63569
+P 3525 1150
+F 0 "C?" H 3640 1196 50  0000 L CNN
+F 1 "100n" H 3640 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3563 1000 50  0001 C CNN
+F 3 "~" H 3525 1150 50  0001 C CNN
+	1    3525 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB6398E
+P 3525 1550
+F 0 "C?" H 3640 1596 50  0000 L CNN
+F 1 "100n" H 3640 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3563 1400 50  0001 C CNN
+F 3 "~" H 3525 1550 50  0001 C CNN
+	1    3525 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1350 3525 1350
+Wire Wire Line
+	3525 1350 3525 1300
+Wire Wire Line
+	3525 1400 3525 1350
+Connection ~ 3525 1350
+Wire Wire Line
+	3525 1700 3525 1750
+Connection ~ 3525 1750
+Wire Wire Line
+	3525 1750 3700 1750
+Wire Wire Line
+	3525 1000 3525 950 
+Connection ~ 3525 950 
+Wire Wire Line
+	3525 950  3700 950 
 $EndSCHEMATC
