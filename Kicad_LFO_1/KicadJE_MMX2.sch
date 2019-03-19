@@ -884,10 +884,10 @@ Inv1
 Text Label 4900 4650 0    50   ~ 0
 Inv2
 $Comp
-L Device:C C?
+L Device:C C203
 U 1 1 5CB63569
 P 3525 1150
-F 0 "C?" H 3640 1196 50  0000 L CNN
+F 0 "C203" H 3640 1196 50  0000 L CNN
 F 1 "100n" H 3640 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3563 1000 50  0001 C CNN
 F 3 "~" H 3525 1150 50  0001 C CNN
@@ -895,10 +895,10 @@ F 3 "~" H 3525 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C204
 U 1 1 5CB6398E
 P 3525 1550
-F 0 "C?" H 3640 1596 50  0000 L CNN
+F 0 "C204" H 3640 1596 50  0000 L CNN
 F 1 "100n" H 3640 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3563 1400 50  0001 C CNN
 F 3 "~" H 3525 1550 50  0001 C CNN
@@ -922,4 +922,37 @@ Wire Wire Line
 Connection ~ 3525 950 
 Wire Wire Line
 	3525 950  3700 950 
+$Comp
+L Graphic:SYM_Hot_Large #SYM201
+U 1 1 5CB80A75
+P 10550 1050
+F 0 "#SYM201" H 10550 1372 50  0000 C CNN
+F 1 "Johansen Engineering Logo 15" H 10550 1281 50  0000 C CNN
+F 2 "AJ:Johansen_engineering_logo_15mm" H 10550 850 50  0001 C CNN
+F 3 "~" H 10580 850 50  0001 C CNN
+	1    10550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Hot_Large #SYM202
+U 1 1 5CB812B5
+P 10550 1525
+F 0 "#SYM202" H 10550 1847 50  0000 C CNN
+F 1 "Johansen Engineering Logo 20" H 10550 1756 50  0000 C CNN
+F 2 "AJ:Johansen_engineering_logo_20mm" H 10550 1325 50  0001 C CNN
+F 3 "~" H 10580 1325 50  0001 C CNN
+	1    10550 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Hot_Large #SYM203
+U 1 1 5CB8186B
+P 10550 2025
+F 0 "#SYM203" H 10550 2347 50  0000 C CNN
+F 1 "Johansen Engineering Logo 25" H 10550 2256 50  0000 C CNN
+F 2 "AJ:Johansen_engineering_logo_25mm_front_neg5" H 10550 1825 50  0001 C CNN
+F 3 "~" H 10580 1825 50  0001 C CNN
+	1    10550 2025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
