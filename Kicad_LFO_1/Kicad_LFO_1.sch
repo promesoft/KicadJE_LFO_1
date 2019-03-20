@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "555 LFO1"
 Date "2019-03-19"
 Rev "Rev A"
@@ -898,4 +898,10 @@ Wire Wire Line
 	1375 1050 1500 1050
 Wire Wire Line
 	1250 1050 1375 1050
+$Sheet
+S 4500 5000 2275 2500
+U 5C92EC55
+F0 "KicadJE_072LFO" 50
+F1 "KicadJE_072LFO.sch" 50
+$EndSheet
 $EndSCHEMATC
