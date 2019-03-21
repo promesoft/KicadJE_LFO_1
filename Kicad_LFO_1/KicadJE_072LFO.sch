@@ -29,15 +29,15 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9650 5225 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U?
-U 2 1 5C94898A
+U 1 1 5C94898A
 P 8375 3175
 AR Path="/5C94898A" Ref="U?"  Part="2" 
-AR Path="/5C92EC55/5C94898A" Ref="U303"  Part="2" 
-F 0 "U303" H 8375 2808 50  0000 C CNN
+AR Path="/5C92EC55/5C94898A" Ref="U302"  Part="1" 
+F 0 "U302" H 8375 2808 50  0000 C CNN
 F 1 "TL072" H 8375 2899 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8375 3175 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8375 3175 50  0001 C CNN
-	2    8375 3175
+	1    8375 3175
 	1    0    0    1   
 $EndComp
 $Comp
