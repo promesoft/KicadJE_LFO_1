@@ -59,19 +59,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1000 1375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5CB79870
-P 2375 1150
-AR Path="/5CB79870" Ref="U?"  Part="3" 
-AR Path="/5CB6DC25/5CB79870" Ref="U401"  Part="3" 
-F 0 "U401" H 2333 1196 50  0000 L CNN
-F 1 "TL072" H 2333 1105 50  0000 L CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2375 1150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2375 1150 50  0001 C CNN
-	3    2375 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Envelope-cache-2018-08-04-13-00-04:+12V #PWR?
 U 1 1 5CB79876
 P 2525 775
@@ -170,8 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	2525 950  2525 850 
 Connection ~ 2525 850 
-Wire Wire Line
-	2275 850  2400 850 
 Wire Wire Line
 	2275 1450 2400 1450
 $Comp
@@ -290,23 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	2275 1150 2400 1150
 Wire Wire Line
-	2275 850  1000 850 
-Wire Wire Line
 	1000 850  1000 875 
-Connection ~ 2275 850 
-$Comp
-L power:-12V #PWR?
-U 1 1 5CB83899
-P 1000 2000
-AR Path="/5CB83899" Ref="#PWR?"  Part="1" 
-AR Path="/5CB6DC25/5CB83899" Ref="#PWR0405"  Part="1" 
-F 0 "#PWR0405" H 1000 2100 50  0001 C CNN
-F 1 "-12V" H 1015 2173 50  0000 C CNN
-F 2 "" H 1000 2000 50  0001 C CNN
-F 3 "" H 1000 2000 50  0001 C CNN
-	1    1000 2000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1000 1875 1000 2000
 $Comp
@@ -873,4 +842,19 @@ F 3 "" H 2625 4975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2625 5150 2625 4975
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5CC7830D
+P 1000 2000
+AR Path="/5CC7830D" Ref="#PWR?"  Part="1" 
+AR Path="/5CB6DC25/5CC7830D" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 1000 1750 50  0001 C CNN
+F 1 "GND" H 1005 1827 50  0000 C CNN
+F 2 "" H 1000 2000 50  0001 C CNN
+F 3 "" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 850  2400 850 
 $EndSCHEMATC
