@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "In OR Out"
+Date "2019-04-15"
+Rev "Rev A"
+Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L 74xx:74LS00 U?
 U 3 1 5CAA366F
-P 2575 5025
-F 0 "U?" H 2575 5350 50  0000 C CNN
-F 1 "74LS00" H 2575 5259 50  0000 C CNN
-F 2 "" H 2575 5025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2575 5025 50  0001 C CNN
-	3    2575 5025
+P 5575 5175
+F 0 "U?" H 5575 5500 50  0000 C CNN
+F 1 "74LS00" H 5575 5409 50  0000 C CNN
+F 2 "" H 5575 5175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5575 5175 50  0001 C CNN
+	3    5575 5175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -497,4 +497,72 @@ Wire Wire Line
 	6375 4400 6375 4075
 Wire Wire Line
 	4875 4400 6375 4400
+$Comp
+L Connector:AudioJack2 J?
+U 1 1 5CBB94F4
+P 6400 5175
+AR Path="/5CBB94F4" Ref="J?"  Part="1" 
+AR Path="/5CB6DC25/5CBB94F4" Ref="J?"  Part="1" 
+F 0 "J?" H 6220 5200 50  0000 R CNN
+F 1 "OR_OUT" H 6220 5109 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 6400 5175 50  0001 C CNN
+F 3 "~" H 6400 5175 50  0001 C CNN
+	1    6400 5175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J?
+U 1 1 5CBB986C
+P 4700 5200
+AR Path="/5CBB986C" Ref="J?"  Part="1" 
+AR Path="/5CB6DC25/5CBB986C" Ref="J?"  Part="1" 
+F 0 "J?" H 4300 5250 50  0000 C CNN
+F 1 "OR_IN" H 4250 5150 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 4700 5200 50  0001 C CNN
+F 3 "~" H 4700 5200 50  0001 C CNN
+	1    4700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5200 5225 5200
+Wire Wire Line
+	5225 5075 5275 5075
+Wire Wire Line
+	5225 5275 5275 5275
+Wire Wire Line
+	5225 5075 5225 5200
+Connection ~ 5225 5200
+Wire Wire Line
+	5225 5200 5225 5275
+Wire Wire Line
+	4900 5100 5000 5100
+Wire Wire Line
+	5000 5100 5000 5300
+Wire Wire Line
+	5000 5300 4900 5300
+Wire Wire Line
+	5875 5175 6200 5175
+Wire Wire Line
+	6200 5075 6050 5075
+Wire Wire Line
+	6050 5075 6050 5375
+Wire Wire Line
+	6050 5375 5000 5375
+Wire Wire Line
+	5000 5375 5000 5300
+Connection ~ 5000 5300
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5CBC2C54
+P 5000 5375
+AR Path="/5CBC2C54" Ref="#PWR?"  Part="1" 
+AR Path="/5CB6DC25/5CBC2C54" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 5125 50  0001 C CNN
+F 1 "GND" H 5005 5202 50  0000 C CNN
+F 2 "" H 5000 5375 50  0001 C CNN
+F 3 "" H 5000 5375 50  0001 C CNN
+	1    5000 5375
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 5375
 $EndSCHEMATC

@@ -8,7 +8,7 @@ Sheet 1 4
 Title "555 LFO1"
 Date "2019-03-19"
 Rev "Rev A"
-Comp "Johansen Engineering"
+Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""

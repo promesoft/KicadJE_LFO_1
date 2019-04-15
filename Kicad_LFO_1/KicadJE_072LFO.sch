@@ -8,7 +8,7 @@ Sheet 3 4
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
