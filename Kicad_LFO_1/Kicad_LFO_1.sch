@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "555 LFO1"
 Date "2019-03-19"
 Rev "Rev A"
@@ -909,5 +909,11 @@ S 7000 5000 2000 1400
 U 5CB6DC25
 F0 "KicadJE_NAND" 50
 F1 "KicadJE_NAND.sch" 50
+$EndSheet
+$Sheet
+S 9250 5000 1850 1400
+U 5CB65864
+F0 "KicadJE_FlipFlop" 50
+F1 "KicadJE_FlipFlop.sch" 50
 $EndSheet
 $EndSCHEMATC
