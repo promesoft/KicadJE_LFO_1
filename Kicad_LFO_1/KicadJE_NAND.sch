@@ -157,8 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	2525 950  2525 850 
 Connection ~ 2525 850 
-Wire Wire Line
-	2275 1450 2400 1450
 $Comp
 L Device:C C?
 U 1 1 5CB798A9
@@ -251,8 +249,6 @@ F 3 "~" H 1925 1300 50  0001 C CNN
 	1    1925 1300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1925 1450 2275 1450
 $Comp
 L Device:R R?
 U 1 1 5CB798D8
@@ -857,4 +853,6 @@ F 3 "" H 1000 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1000 850  2400 850 
+Wire Wire Line
+	1925 1450 2400 1450
 $EndSCHEMATC

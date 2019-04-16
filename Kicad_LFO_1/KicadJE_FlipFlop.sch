@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Flip Flop"
+Date "2019-04-16"
+Rev "Rev A"
+Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -321,20 +321,6 @@ Wire Wire Line
 	5000 2725 5000 2675
 Connection ~ 5000 2675
 $Comp
-L Device:R R?
-U 1 1 5CB7E378
-P 2350 2900
-AR Path="/5CB7E378" Ref="R?"  Part="1" 
-AR Path="/5C8C5FC0/5CB7E378" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5CB7E378" Ref="R?"  Part="1" 
-F 0 "R?" V 2143 2900 50  0000 C CNN
-F 1 "4k7" V 2234 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2280 2900 50  0001 C CNN
-F 3 "~" H 2350 2900 50  0001 C CNN
-	1    2350 2900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CB7E37E
 P 1750 2900
@@ -349,8 +335,6 @@ F 3 "~" H 1750 2900 50  0001 C CNN
 	1    1750 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 2900 2800 2900
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CB7E389
@@ -367,8 +351,6 @@ F 3 "~" H 1750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 2450 2200 2450
-Wire Wire Line
 	1950 2550 2100 2550
 Wire Wire Line
 	2100 2350 2100 2550
@@ -376,25 +358,25 @@ Connection ~ 2100 2550
 Wire Wire Line
 	1950 2350 2100 2350
 Wire Wire Line
-	2100 2550 2100 2800
+	2100 2550 2100 2625
 Wire Wire Line
 	1950 2800 2100 2800
 Connection ~ 2100 2800
 Wire Wire Line
-	2100 2800 2100 3250
+	2100 2800 2100 3125
 $Comp
 L Device:R R?
 U 1 1 5CB7E39C
-P 2350 2450
+P 2600 2450
 AR Path="/5CB7E39C" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5CB7E39C" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/5CB7E39C" Ref="R?"  Part="1" 
 AR Path="/5CB65864/5CB7E39C" Ref="R?"  Part="1" 
-F 0 "R?" V 2143 2450 50  0000 C CNN
-F 1 "4k7" V 2234 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2280 2450 50  0001 C CNN
-F 3 "~" H 2350 2450 50  0001 C CNN
-	1    2350 2450
+F 0 "R?" V 2393 2450 50  0000 C CNN
+F 1 "4k7" V 2484 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 2450 50  0001 C CNN
+F 3 "~" H 2600 2450 50  0001 C CNN
+	1    2600 2450
 	0    1    1    0   
 $EndComp
 Text GLabel 4525 1275 0    50   Input ~ 0
@@ -413,8 +395,6 @@ Text GLabel 5575 2225 2    50   Input ~ 0
 FF_OUT2
 Wire Wire Line
 	5300 2225 5575 2225
-Wire Wire Line
-	1950 2900 2200 2900
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CB8B054
@@ -430,24 +410,21 @@ Text GLabel 2800 2900 2    50   Input ~ 0
 FF_IN2
 Text GLabel 2800 2450 2    50   Input ~ 0
 FF_IN1
-Wire Wire Line
-	2500 2450 2800 2450
-Text GLabel 2200 3000 2    50   Input ~ 0
+Text GLabel 2800 3000 2    50   Input ~ 0
 FF_OUT1
-Wire Wire Line
-	1950 3000 2200 3000
 $Comp
 L Device:R R?
 U 1 1 5CB8D8DB
-P 2325 4475
+P 2600 4475
 AR Path="/5CB8D8DB" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5CB8D8DB" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/5CB8D8DB" Ref="R?"  Part="1" 
-F 0 "R?" V 2118 4475 50  0000 C CNN
-F 1 "4k7" V 2209 4475 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2255 4475 50  0001 C CNN
-F 3 "~" H 2325 4475 50  0001 C CNN
-	1    2325 4475
+AR Path="/5CB65864/5CB8D8DB" Ref="R?"  Part="1" 
+F 0 "R?" V 2393 4475 50  0000 C CNN
+F 1 "4k7" V 2484 4475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 4475 50  0001 C CNN
+F 3 "~" H 2600 4475 50  0001 C CNN
+	1    2600 4475
 	0    1    1    0   
 $EndComp
 $Comp
@@ -465,8 +442,6 @@ F 3 "~" H 1725 4475 50  0001 C CNN
 	1    1725 4475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2475 4475 2775 4475
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CB8D8F0
@@ -483,31 +458,25 @@ F 3 "~" H 1725 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1925 4025 2175 4025
-Wire Wire Line
 	1925 3925 2075 3925
 Wire Wire Line
 	1925 4375 2075 4375
 Connection ~ 2075 4375
-Wire Wire Line
-	2075 4375 2075 4825
 $Comp
 L Device:R R?
 U 1 1 5CB8D903
-P 2325 4025
+P 2575 4025
 AR Path="/5CB8D903" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5CB8D903" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/5CB8D903" Ref="R?"  Part="1" 
 AR Path="/5CB65864/5CB8D903" Ref="R?"  Part="1" 
-F 0 "R?" V 2118 4025 50  0000 C CNN
-F 1 "4k7" V 2209 4025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2255 4025 50  0001 C CNN
-F 3 "~" H 2325 4025 50  0001 C CNN
-	1    2325 4025
+F 0 "R?" V 2368 4025 50  0000 C CNN
+F 1 "4k7" V 2459 4025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2505 4025 50  0001 C CNN
+F 3 "~" H 2575 4025 50  0001 C CNN
+	1    2575 4025
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1925 4475 2175 4475
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CB8D90E
@@ -519,12 +488,120 @@ F 3 "" H 2075 4825 50  0001 C CNN
 	1    2075 4825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2475 4025 2775 4025
 Text GLabel 2775 4025 2    50   Input ~ 0
 FF_OUT1
-Wire Wire Line
-	2075 3925 2075 4375
 Text GLabel 2775 4475 2    50   Input ~ 0
 FF_OUT2
+$Comp
+L Diode:MRA4007T3G D?
+U 1 1 5CB9AEB0
+P 2250 3125
+AR Path="/5CB6DC25/5CB9AEB0" Ref="D?"  Part="1" 
+AR Path="/5CB65864/5CB9AEB0" Ref="D?"  Part="1" 
+F 0 "D?" H 2250 2909 50  0000 C CNN
+F 1 "MRA4007T3G" H 2050 3250 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2250 2950 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2250 3125 50  0001 C CNN
+	1    2250 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:MRA4007T3G D?
+U 1 1 5CB9AEB8
+P 2250 2625
+AR Path="/5CB6DC25/5CB9AEB8" Ref="D?"  Part="1" 
+AR Path="/5CB65864/5CB9AEB8" Ref="D?"  Part="1" 
+F 0 "D?" H 2250 2409 50  0000 C CNN
+F 1 "MRA4007T3G" H 2225 2725 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2250 2450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2250 2625 50  0001 C CNN
+	1    2250 2625
+	-1   0    0    1   
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:+12V #PWR?
+U 1 1 5CB9AEC5
+P 2750 2125
+AR Path="/5CB9AEC5" Ref="#PWR?"  Part="1" 
+AR Path="/5CB6DC25/5CB9AEC5" Ref="#PWR?"  Part="1" 
+AR Path="/5CB65864/5CB9AEC5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2750 1975 50  0001 C CNN
+F 1 "+12V" H 2765 2298 50  0000 C CNN
+F 2 "" H 2750 2125 50  0001 C CNN
+F 3 "" H 2750 2125 50  0001 C CNN
+	1    2750 2125
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 2625
+Wire Wire Line
+	2100 2625 2100 2800
+Connection ~ 2100 3125
+Wire Wire Line
+	2100 3125 2100 3250
+Wire Wire Line
+	2750 2450 2800 2450
+Wire Wire Line
+	2400 2625 2400 2450
+Wire Wire Line
+	1950 2450 2400 2450
+Connection ~ 2400 2450
+Wire Wire Line
+	2400 2450 2450 2450
+Wire Wire Line
+	1950 2900 2400 2900
+$Comp
+L Device:R R?
+U 1 1 5CB7E378
+P 2600 2900
+AR Path="/5CB7E378" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5CB7E378" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5CB7E378" Ref="R?"  Part="1" 
+AR Path="/5CB65864/5CB7E378" Ref="R?"  Part="1" 
+F 0 "R?" V 2393 2900 50  0000 C CNN
+F 1 "4k7" V 2484 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 2900 50  0001 C CNN
+F 3 "~" H 2600 2900 50  0001 C CNN
+	1    2600 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 2900 2800 2900
+Wire Wire Line
+	2400 3125 2400 2900
+Connection ~ 2400 2900
+Wire Wire Line
+	2400 2900 2450 2900
+Wire Wire Line
+	1950 3000 2800 3000
+Wire Wire Line
+	2725 4025 2775 4025
+Wire Wire Line
+	2750 4475 2775 4475
+Wire Wire Line
+	1925 4025 2425 4025
+Wire Wire Line
+	1925 4475 2450 4475
+Wire Wire Line
+	2075 4375 2075 4825
+Wire Wire Line
+	2075 3925 2075 4375
+$Comp
+L Diode:MRA4007T3G D?
+U 1 1 5CBB86AF
+P 2600 2200
+AR Path="/5CB6DC25/5CBB86AF" Ref="D?"  Part="1" 
+AR Path="/5CB65864/5CBB86AF" Ref="D?"  Part="1" 
+F 0 "D?" H 2600 1984 50  0000 C CNN
+F 1 "MRA4007T3G" H 2175 2200 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2600 2025 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2600 2200 50  0001 C CNN
+	1    2600 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 2200 2400 2200
+Wire Wire Line
+	2400 2200 2400 2450
+Wire Wire Line
+	2750 2200 2750 2125
 $EndSCHEMATC

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 5
 Title ""
 Date ""
-Rev ""
+Rev "Rev A"
 Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
