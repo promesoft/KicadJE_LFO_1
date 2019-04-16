@@ -387,14 +387,10 @@ Wire Wire Line
 	4700 1275 4525 1275
 Wire Wire Line
 	4500 2325 4700 2325
-Text GLabel 5625 1175 2    50   Input ~ 0
+Text GLabel 6100 1175 2    50   Input ~ 0
 FF_OUT1
-Wire Wire Line
-	5300 1175 5625 1175
-Text GLabel 5575 2225 2    50   Input ~ 0
+Text GLabel 6125 2225 2    50   Input ~ 0
 FF_OUT2
-Wire Wire Line
-	5300 2225 5575 2225
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR0509
 U 1 1 5CB8B054
@@ -604,4 +600,86 @@ Wire Wire Line
 	2400 2200 2400 2450
 Wire Wire Line
 	2750 2200 2750 2125
+$Comp
+L Device:R R?
+U 1 1 5CBC9DEE
+P 5825 1325
+AR Path="/5CBC9DEE" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5CBC9DEE" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5CBC9DEE" Ref="R?"  Part="1" 
+AR Path="/5CB65864/5CBC9DEE" Ref="R506"  Part="1" 
+F 0 "R506" V 5618 1325 50  0000 C CNN
+F 1 "22k" V 5709 1325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5755 1325 50  0001 C CNN
+F 3 "~" H 5825 1325 50  0001 C CNN
+	1    5825 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1175 5825 1175
+Connection ~ 5825 1175
+Wire Wire Line
+	5825 1175 6100 1175
+Wire Wire Line
+	5300 2225 5825 2225
+$Comp
+L Device:R R?
+U 1 1 5CBD0616
+P 5825 2375
+AR Path="/5CBD0616" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5CBD0616" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5CBD0616" Ref="R?"  Part="1" 
+AR Path="/5CB65864/5CBD0616" Ref="R507"  Part="1" 
+F 0 "R507" V 5618 2375 50  0000 C CNN
+F 1 "22k" V 5709 2375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5755 2375 50  0001 C CNN
+F 3 "~" H 5825 2375 50  0001 C CNN
+	1    5825 2375
+	1    0    0    -1  
+$EndComp
+Connection ~ 5825 2225
+Wire Wire Line
+	5825 2225 6125 2225
+$Comp
+L Device:LED D?
+U 1 1 5CBD0AA2
+P 5825 1700
+AR Path="/5CAAE8D3/5CBD0AA2" Ref="D?"  Part="1" 
+AR Path="/5CBD0AA2" Ref="D?"  Part="1" 
+AR Path="/5CB65864/5CBD0AA2" Ref="D505"  Part="1" 
+F 0 "D505" V 5864 1583 50  0000 R CNN
+F 1 "LEDOut1" V 5773 1583 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5825 1700 50  0001 C CNN
+F 3 "~" H 5825 1700 50  0001 C CNN
+	1    5825 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CBD14B5
+P 5825 2775
+AR Path="/5CAAE8D3/5CBD14B5" Ref="D?"  Part="1" 
+AR Path="/5CBD14B5" Ref="D?"  Part="1" 
+AR Path="/5CB65864/5CBD14B5" Ref="D506"  Part="1" 
+F 0 "D506" V 5864 2658 50  0000 R CNN
+F 1 "LEDOut2" V 5773 2658 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 5825 2775 50  0001 C CNN
+F 3 "~" H 5825 2775 50  0001 C CNN
+	1    5825 2775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5825 1550 5825 1475
+Wire Wire Line
+	5450 2025 5825 2025
+Wire Wire Line
+	5825 2025 5825 1850
+Connection ~ 5450 2025
+Wire Wire Line
+	5825 2525 5825 2625
+Wire Wire Line
+	5825 2925 5450 2925
+Wire Wire Line
+	5450 2925 5450 2675
+Connection ~ 5450 2675
 $EndSCHEMATC
