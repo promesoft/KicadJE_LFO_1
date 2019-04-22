@@ -18,7 +18,11 @@ Initial Analogue LFO
 | ------------- | ------------- | ------------- |
 | Initial Inspection | |  |
 | Initial Technical Test |  |  |
-| Initial Product Test | VCO CV from LFO | OK |
+| Initial Product Test | LFO |  |
+| Initial Product Test | LFO555 |  |
+| Initial Product Test | MMX2 |  |
+| Initial Product Test | NAND |  |
+| Initial Product Test | FlipFlop |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
@@ -36,6 +40,8 @@ Initial Analogue LFO
 ## Issues and Notes
 ### 
 
+# Pictures
+![](Kicad_LFO_1/Kicad_LFO_1_Top1.png)
 
 # Inspiration from 
 https://www.electronics-tutorials.ws/waveforms/555_oscillator.html
