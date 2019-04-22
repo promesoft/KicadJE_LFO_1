@@ -8,8 +8,8 @@ Initial Analogue LFO
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch/pcb |   |
-| | gerber | |
+| create material  | sch/pcb | OK  |
+| | gerber | OK |
 | production  |   |  |
 |  | produced |  |
 |  | delivered |  |
