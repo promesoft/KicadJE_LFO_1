@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "In OR Out"
-Date "2019-04-15"
-Rev "Rev A"
+Date "2019-04-22"
+Rev "Rev B"
 Comp "Johansen Electronics"
 Comment1 ""
 Comment2 ""
@@ -309,11 +309,6 @@ Wire Wire Line
 Wire Wire Line
 	1625 3025 1775 3025
 Connection ~ 1775 3025
-Wire Wire Line
-	1775 3025 1775 3225
-Wire Wire Line
-	1775 3225 1775 3250
-Connection ~ 1775 3225
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CBA1A9A
@@ -327,8 +322,6 @@ F 3 "~" H 1425 3125 50  0001 C CNN
 	1    1425 3125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1625 3225 1775 3225
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CBA32E0
@@ -344,13 +337,6 @@ F 3 "~" H 1425 2750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1775 2650 1625 2650
-Wire Wire Line
-	1775 2650 1775 2850
-Wire Wire Line
-	1625 2850 1775 2850
-Connection ~ 1775 2850
-Wire Wire Line
-	1775 2850 1775 2875
 $Comp
 L 74xx:74LS00 U402
 U 2 1 5CBAA4DE
@@ -395,9 +381,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 4250 1750 4250
 Connection ~ 1750 4250
-Wire Wire Line
-	1750 4450 1750 4475
-Connection ~ 1750 4450
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CBAA506
@@ -411,8 +394,6 @@ F 3 "~" H 1400 4350 50  0001 C CNN
 	1    1400 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 4450 1750 4450
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 5CBAA511
@@ -428,11 +409,6 @@ F 3 "~" H 1400 3975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1750 3875 1600 3875
-Wire Wire Line
-	1600 4075 1750 4075
-Connection ~ 1750 4075
-Wire Wire Line
-	1750 4075 1750 4100
 Wire Wire Line
 	5675 4275 5675 4200
 Wire Wire Line
@@ -672,7 +648,7 @@ $EndComp
 Wire Wire Line
 	2325 2625 2450 2625
 Wire Wire Line
-	2450 2625 2450 2450
+	2450 2625 2450 2500
 Wire Wire Line
 	2325 3025 2450 3025
 Wire Wire Line
@@ -758,7 +734,7 @@ $EndComp
 Wire Wire Line
 	2450 3850 2575 3850
 Wire Wire Line
-	2575 3850 2575 3675
+	2575 3850 2575 3725
 Wire Wire Line
 	2450 4250 2575 4250
 Wire Wire Line
@@ -778,10 +754,6 @@ Wire Wire Line
 Connection ~ 1750 4475
 Wire Wire Line
 	1750 4475 1750 4550
-Wire Wire Line
-	1750 4250 1750 4450
-Wire Wire Line
-	1750 3875 1750 4075
 $Comp
 L Diode:MRA4007T3G D410
 U 1 1 5CC1190E
@@ -855,4 +827,40 @@ Wire Wire Line
 	1000 850  2400 850 
 Wire Wire Line
 	1925 1450 2400 1450
+Wire Wire Line
+	1750 4250 1750 4475
+Wire Wire Line
+	1750 3875 1750 4100
+Wire Wire Line
+	1600 4450 1675 4450
+Wire Wire Line
+	1675 4450 1675 4075
+Wire Wire Line
+	1675 4075 1600 4075
+Wire Wire Line
+	1675 4075 1675 3725
+Wire Wire Line
+	1675 3725 2575 3725
+Connection ~ 1675 4075
+Connection ~ 2575 3725
+Wire Wire Line
+	2575 3725 2575 3675
+Wire Wire Line
+	1775 3025 1775 3250
+Wire Wire Line
+	1775 2650 1775 2875
+Wire Wire Line
+	1625 3225 1675 3225
+Wire Wire Line
+	1675 3225 1675 2850
+Wire Wire Line
+	1675 2850 1625 2850
+Wire Wire Line
+	1675 2850 1675 2500
+Wire Wire Line
+	1675 2500 2450 2500
+Connection ~ 1675 2850
+Connection ~ 2450 2500
+Wire Wire Line
+	2450 2500 2450 2450
 $EndSCHEMATC
