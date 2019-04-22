@@ -22,6 +22,7 @@ Initial Analogue LFO
 | Initial Product Test | LFO555 |  |
 | Initial Product Test | MMX2 |  |
 | Initial Product Test | NAND |  |
+| Initial Product Test | FlipFlop |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
