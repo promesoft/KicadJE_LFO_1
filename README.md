@@ -18,7 +18,10 @@ Initial Analogue LFO
 | ------------- | ------------- | ------------- |
 | Initial Inspection | |  |
 | Initial Technical Test |  |  |
-| Initial Product Test | VCO CV from LFO | OK |
+| Initial Product Test | LFO |  |
+| Initial Product Test | LFO555 |  |
+| Initial Product Test | MMX2 |  |
+| Initial Product Test | NAND |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
