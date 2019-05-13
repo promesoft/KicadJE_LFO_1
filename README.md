@@ -4,13 +4,13 @@ Initial Analogue LFO
 
 # Purpose
 
-# Status - Preliminary SCH/PCB
+# Status - Preliminary SCH/PCB Ordered
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   |  |
+| production  |   | Ordered |
 |  | produced |  |
 |  | delivered |  |
 ## Preliminary validation
