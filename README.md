@@ -36,6 +36,8 @@ Initial Analogue LFO
 
 ## Errata
 ### Errata -
+### Errata - Flip-Flot
+1 - LED positions swapped
 
 ## Issues and Notes
 ### LFO
@@ -54,6 +56,9 @@ Initial Analogue LFO
 7 - mounting holes
 
 ### 555 LFO
+
+### Flip-Flot
+1 - LED positions swapped
 
 # Pictures
 ![](Kicad_LFO_1/Kicad_LFO_1_Top1.png)
