@@ -51,6 +51,8 @@ Initial Analogue LFO
 
 6 - Consider adding series resistor to outputs
 
+7 - mounting holes
+
 ### 555 LFO
 
 # Pictures
