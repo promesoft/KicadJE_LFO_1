@@ -36,7 +36,7 @@ Initial Analogue LFO
 
 ## Errata
 ### Errata -
-### Errata - Flip-Flot
+### Errata - Flip-Flop
 1 - LED positions swapped
 
 ## Issues and Notes
@@ -57,7 +57,7 @@ Initial Analogue LFO
 
 ### 555 LFO
 
-### Flip-Flot
+### Flip-Flop
 1 - LED positions swapped
 
 # Pictures
