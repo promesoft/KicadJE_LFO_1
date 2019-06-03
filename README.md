@@ -49,6 +49,8 @@ Initial Analogue LFO
 
 5 - Chose different Jacks
 
+6 - Consider adding series resistor to outputs
+
 ### 555 LFO
 
 # Pictures
