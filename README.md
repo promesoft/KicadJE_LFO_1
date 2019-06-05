@@ -19,6 +19,7 @@ Initial Analogue LFO
 | Initial Inspection | | OK |
 | Initial Technical Test |  |  |
 | Initial Product Test | LFO | Works well with R311 not mounted |
+| | | Pot's should be 1 mm closer to front (or jacks further back)|
 | Initial Product Test | LFO555 |  |
 | Initial Product Test | MMX2 |  |
 | Initial Product Test | NAND |  |
