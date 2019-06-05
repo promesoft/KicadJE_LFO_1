@@ -21,9 +21,9 @@ Initial Analogue LFO
 | Initial Product Test | LFO | Works well with R311 not mounted |
 | | | Pot's should be 1 mm closer to front (or jacks further back)|
 | Initial Product Test | LFO555 |  |
-| Initial Product Test | MMX2 |  |
+| Initial Product Test | MMX2 | Works nicely |
 | Initial Product Test | NAND |  |
-| Initial Product Test | FlipFlop |  |
+| Initial Product Test | FlipFlop | Working |
 
 ## Secondary validation
 | Test  | Detail | Status |
@@ -42,7 +42,8 @@ Initial Analogue LFO
 | Power Draw |  | 
 
 ## Errata
-### Errata -
+### Errata - MMX2
+1 - 1206 caps (C201+C202) are too close to the switch to mount both
 ### Errata - Flip-Flop
 1 - LED positions swapped
 
