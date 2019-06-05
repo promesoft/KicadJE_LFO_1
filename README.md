@@ -27,10 +27,16 @@ Initial Analogue LFO
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
-| Product Test |  | |
-| Product Test |  |  |
-| Quality | | |
-| Quality | | |
+| Product Test | LFO | |
+| Product Test | LFO555 |  |
+| Product Test | MMX2 | |
+| Product Test | NAND |  |
+| Product Test | LFO555 |  |
+| Quality | LFO | Sounds nice - a few constraints on pot's would be nice|
+| Quality | LFO555 | |
+| Quality | MMX2 | |
+| Quality | NAND | |
+| Quality | FlipFlop | |
 | Long Term Product Test |  |  |
 | Power Draw |  | 
 
