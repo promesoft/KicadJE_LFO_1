@@ -20,7 +20,7 @@ Initial Analogue LFO
 | Initial Technical Test | LFO555 | 555 and 072 gets warm in certain settings |
 | Initial Product Test | LFO | Works well with R311 not mounted |
 | | | Pot's should be 1 mm closer to front (or jacks further back)|
-| Initial Product Test | LFO555 | Sine and Tri not working |
+| Initial Product Test | LFO555 | Sine and Tri not working - RV101B should have 500R series resistor |
 | Initial Product Test | MMX2 | Works nicely |
 | Initial Product Test | NAND |  |
 | Initial Product Test | FlipFlop | Working |
