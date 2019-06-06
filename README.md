@@ -42,6 +42,8 @@ Initial Analogue LFO
 | Power Draw |  | 
 
 ## Errata
+### Errata - LFO555
+1 - SW101 too close to P101
 ### Errata - MMX2
 1 - 1206 caps (C201+C202) are too close to the switch to mount both
 ### Errata - Flip-Flop
@@ -63,7 +65,16 @@ Initial Analogue LFO
 
 7 - mounting holes
 
+8 - Pot's should be 1 mm closer to front (or jacks further back)
+
 ### 555 LFO
+1 - RV101B should have series resistor (330 - 1k)
+
+2 - All outputs should have a series resistor (470R ?)
+
+3 - Pot's should be 1 mm closer to front (or jacks further back)
+
+4 - RV101 footprint not matching pots
 
 ### Flip-Flop
 1 - LED positions swapped
