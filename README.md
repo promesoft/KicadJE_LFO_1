@@ -29,10 +29,10 @@ Initial Analogue LFO
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
 | Product Test | LFO | |
-| Product Test | LFO555 |  |
-| Product Test | MMX2 | |
+| Product Test | LFO555 | not working right |
+| Product Test | MMX2 | Working as intended |
 | Product Test | NAND |  |
-| Product Test | LFO555 |  |
+| Product Test | FlipFlop | Working as intended except for LED's |
 | Quality | LFO | Sounds nice - a few constraints on pot's would be nice|
 | Quality | LFO555 | |
 | Quality | MMX2 | |
