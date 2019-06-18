@@ -22,7 +22,7 @@ Initial Analogue LFO
 | | | Pot's should be 1 mm closer to front (or jacks further back)|
 | Initial Product Test | LFO555 | Sine and Tri not working - RV101B should have 500R series resistor |
 | Initial Product Test | MMX2 | Works nicely |
-| Initial Product Test | NAND | Not working with 4093 - footprint matches 74LS00 |
+| Initial Product Test | NAND | Not working with 4093 - footprint matches 74HC00 |
 | Initial Product Test | FlipFlop | Working |
 
 ## Secondary validation
