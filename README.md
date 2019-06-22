@@ -81,6 +81,9 @@ Will Never work - Footprint wrong so Input is directly coupled to output for som
 ### Flip-Flop
 1 - LED positions swapped
 
+### NAND
+Will Never work - Footprint wrong so Input is directly coupled to output for some NAND's
+
 # Pictures
 ![](Kicad_LFO_1/Kicad_LFO_1_Top1.png)
 
