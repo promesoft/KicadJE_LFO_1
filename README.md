@@ -31,12 +31,12 @@ Initial Analogue LFO
 | Product Test | LFO | |
 | Product Test | LFO555 | not working right |
 | Product Test | MMX2 | Working as intended |
-| Product Test | NAND |  |
+| Product Test | NAND | Will Never work |
 | Product Test | FlipFlop | Working as intended except for LED's |
 | Quality | LFO | Sounds nice - a few constraints on pot's would be nice|
 | Quality | LFO555 | |
 | Quality | MMX2 | |
-| Quality | NAND | |
+| Quality | NAND | Will Never work |
 | Quality | FlipFlop | |
 | Long Term Product Test |  |  |
 | Power Draw |  | 
@@ -48,6 +48,8 @@ Initial Analogue LFO
 1 - 1206 caps (C201+C202) are too close to the switch to mount both
 ### Errata - Flip-Flop
 1 - LED positions swapped
+### Errata - NAND
+Will Never work - Footprint wrong so Input is directly coupled to output for some NAND's
 
 ## Issues and Notes
 ### LFO
