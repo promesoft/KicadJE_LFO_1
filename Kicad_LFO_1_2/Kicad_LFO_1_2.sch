@@ -89,27 +89,12 @@ $EndComp
 Wire Wire Line
 	6850 1800 7100 1800
 Wire Wire Line
-	7100 1800 7100 1350
-Wire Wire Line
 	6350 2200 6350 2500
 Connection ~ 7100 2500
 Wire Wire Line
 	7100 2500 7100 2400
 Wire Wire Line
 	6350 1350 6350 1400
-$Comp
-L Device:R R103
-U 1 1 5C8C1F15
-P 7350 1600
-F 0 "R103" V 7143 1600 50  0000 C CNN
-F 1 "100r" V 7234 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 1600 50  0001 C CNN
-F 3 "~" H 7350 1600 50  0001 C CNN
-	1    7350 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6850 1600 7200 1600
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:+12V #PWR0103
 U 1 1 5C8C2135
@@ -126,12 +111,7 @@ Wire Wire Line
 Connection ~ 5950 1350
 Wire Wire Line
 	5950 1350 6350 1350
-Wire Wire Line
-	6350 1350 6600 1350
 Connection ~ 6350 1350
-Wire Wire Line
-	6900 1350 7100 1350
-Connection ~ 7100 1350
 Wire Wire Line
 	7000 900  7100 900 
 $Comp
@@ -155,17 +135,15 @@ Wire Wire Line
 	6350 2500 7100 2500
 Wire Wire Line
 	6550 900  6700 900 
-Wire Wire Line
-	7100 900  7100 1200
 $Comp
 L Device:R_POT_Dual_Separate RV101
 U 2 1 5C8C5417
-P 6750 1350
-F 0 "RV101" V 6636 1350 50  0000 C CNN
-F 1 "200k" V 6545 1350 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal" H 6750 1350 50  0001 C CNN
-F 3 "~" H 6750 1350 50  0001 C CNN
-	2    6750 1350
+P 6850 1350
+F 0 "RV101" V 6736 1350 50  0000 C CNN
+F 1 "200k" V 6645 1350 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal" H 6850 1350 50  0001 C CNN
+F 3 "~" H 6850 1350 50  0001 C CNN
+	2    6850 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -174,7 +152,7 @@ U 1 1 5C8C547E
 P 6850 900
 F 0 "RV101" V 6736 900 50  0000 C CNN
 F 1 "200k" V 6645 900 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Double_Horizontal" H 6850 900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal" H 6850 900 50  0001 C CNN
 F 3 "~" H 6850 900 50  0001 C CNN
 	1    6850 900 
 	0    -1   -1   0   
@@ -184,11 +162,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 750  7100 900 
 Connection ~ 7100 900 
-Wire Wire Line
-	6750 1200 7100 1200
-Connection ~ 7100 1200
-Wire Wire Line
-	7100 1200 7100 1350
 $Comp
 L Device:R R102
 U 1 1 5C8C5CDB
@@ -223,7 +196,7 @@ F 3 "~" H 10375 1775 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 1600 7500 1600
+	8000 1600 7850 1600
 Wire Wire Line
 	6925 2000 6925 2325
 Connection ~ 6925 2000
@@ -430,8 +403,6 @@ $EndComp
 Text GLabel 8000 1825 2    50   Input ~ 0
 Charge
 Wire Wire Line
-	8000 1825 7100 1825
-Wire Wire Line
 	7100 1825 7100 2000
 Text GLabel 10175 2175 0    50   Input ~ 0
 Charge
@@ -601,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	2775 2425 2775 2500
 Wire Wire Line
-	3600 2325 4100 2325
+	3600 2325 3725 2325
 Connection ~ 3600 2325
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:POT RV102
@@ -620,13 +591,6 @@ Wire Wire Line
 	2775 3575 2775 3075
 Wire Wire Line
 	2775 3075 3125 3075
-Wire Wire Line
-	3825 3075 3825 3675
-Wire Wire Line
-	3825 3675 3500 3675
-Wire Wire Line
-	4075 3675 3825 3675
-Connection ~ 3825 3675
 Text GLabel 1250 3775 0    50   Input ~ 0
 Tri
 Wire Wire Line
@@ -714,8 +678,6 @@ F 3 "~" H 3275 3075 50  0001 C CNN
 	1    3275 3075
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3425 3075 3825 3075
 $Comp
 L Device:R R107
 U 1 1 5CA0B6E6
@@ -916,4 +878,94 @@ U 5CB65864
 F0 "KicadJE_FlipFlop" 50
 F1 "KicadJE_FlipFlop.sch" 50
 $EndSheet
+$Comp
+L Device:R R?
+U 1 1 5D985C58
+P 3875 2325
+F 0 "R?" V 3668 2325 50  0000 C CNN
+F 1 "100r" V 3759 2325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3805 2325 50  0001 C CNN
+F 3 "~" H 3875 2325 50  0001 C CNN
+	1    3875 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4025 2325 4100 2325
+Wire Wire Line
+	3500 3675 3625 3675
+$Comp
+L Device:R R?
+U 1 1 5D98BCE4
+P 3875 3675
+F 0 "R?" V 3668 3675 50  0000 C CNN
+F 1 "100r" V 3759 3675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3805 3675 50  0001 C CNN
+F 3 "~" H 3875 3675 50  0001 C CNN
+	1    3875 3675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4025 3675 4075 3675
+Wire Wire Line
+	3425 3075 3625 3075
+Wire Wire Line
+	3625 3075 3625 3675
+Connection ~ 3625 3675
+Wire Wire Line
+	3625 3675 3725 3675
+$Comp
+L Device:R R?
+U 1 1 5D991793
+P 7700 1600
+F 0 "R?" V 7493 1600 50  0000 C CNN
+F 1 "100r" V 7584 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7630 1600 50  0001 C CNN
+F 3 "~" H 7700 1600 50  0001 C CNN
+	1    7700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 1825 7850 1825
+$Comp
+L Device:R R103
+U 1 1 5C8C1F15
+P 7700 1825
+F 0 "R103" V 7493 1825 50  0000 C CNN
+F 1 "100r" V 7584 1825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7630 1825 50  0001 C CNN
+F 3 "~" H 7700 1825 50  0001 C CNN
+	1    7700 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 1825 7100 1825
+Wire Wire Line
+	6850 1600 7550 1600
+Wire Wire Line
+	7100 900  7100 1200
+Wire Wire Line
+	7000 1350 7100 1350
+Connection ~ 7100 1350
+Wire Wire Line
+	7100 1350 7100 1800
+Wire Wire Line
+	6350 1350 6375 1350
+$Comp
+L Device:R R?
+U 1 1 5D9A7602
+P 6525 1350
+F 0 "R?" V 6318 1350 50  0000 C CNN
+F 1 "100r" V 6409 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6455 1350 50  0001 C CNN
+F 3 "~" H 6525 1350 50  0001 C CNN
+	1    6525 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6675 1350 6700 1350
+Wire Wire Line
+	6850 1200 7100 1200
+Connection ~ 7100 1200
+Wire Wire Line
+	7100 1200 7100 1350
 $EndSCHEMATC
