@@ -217,7 +217,7 @@ U 1 1 5C967F7C
 P 10375 2175
 F 0 "J103" H 10195 2200 50  0000 R CNN
 F 1 "LFO555Charge" H 10195 2109 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 10375 2175 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10375 2175 50  0001 C CNN
 F 3 "~" H 10375 2175 50  0001 C CNN
 	1    10375 2175
 	-1   0    0    -1  
@@ -461,7 +461,7 @@ U 1 1 5C9BDFA5
 P 9225 2175
 F 0 "J105" H 9045 2200 50  0000 R CNN
 F 1 "Sine" H 9045 2109 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 9225 2175 50  0001 C CNN
+F 2 "Connector_Audio:AudioJack3StereoNarrow-PJ-321" H 9225 2175 50  0001 C CNN
 F 3 "~" H 9225 2175 50  0001 C CNN
 	1    9225 2175
 	-1   0    0    -1  
