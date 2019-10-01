@@ -179,7 +179,7 @@ U 1 1 5C8C5E07
 P 10375 1350
 F 0 "J102" H 10405 1675 50  0000 C CNN
 F 1 "555 Reset" H 10405 1584 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10375 1350 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 10375 1350 50  0001 C CNN
 F 3 "~" H 10375 1350 50  0001 C CNN
 	1    10375 1350
 	-1   0    0    -1  
@@ -190,7 +190,7 @@ U 1 1 5C8C72C2
 P 10375 1775
 F 0 "J101" H 10195 1800 50  0000 R CNN
 F 1 "LFO555" H 10195 1709 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10375 1775 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 10375 1775 50  0001 C CNN
 F 3 "~" H 10375 1775 50  0001 C CNN
 	1    10375 1775
 	-1   0    0    -1  
@@ -217,7 +217,7 @@ U 1 1 5C967F7C
 P 10375 2175
 F 0 "J103" H 10195 2200 50  0000 R CNN
 F 1 "LFO555Charge" H 10195 2109 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 10375 2175 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 10375 2175 50  0001 C CNN
 F 3 "~" H 10375 2175 50  0001 C CNN
 	1    10375 2175
 	-1   0    0    -1  
@@ -450,7 +450,7 @@ U 1 1 5C9BDF9B
 P 9225 1775
 F 0 "J104" H 9045 1800 50  0000 R CNN
 F 1 "Tri" H 9045 1709 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 9225 1775 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 9225 1775 50  0001 C CNN
 F 3 "~" H 9225 1775 50  0001 C CNN
 	1    9225 1775
 	-1   0    0    -1  
@@ -461,7 +461,7 @@ U 1 1 5C9BDFA5
 P 9225 2175
 F 0 "J105" H 9045 2200 50  0000 R CNN
 F 1 "Sine" H 9045 2109 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:AudioJack3StereoNarrow-PJ-321" H 9225 2175 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 9225 2175 50  0001 C CNN
 F 3 "~" H 9225 2175 50  0001 C CNN
 	1    9225 2175
 	-1   0    0    -1  
@@ -512,7 +512,7 @@ L Device:R R105
 U 1 1 5C9C473C
 P 3200 1375
 F 0 "R105" V 3125 1250 50  0000 R CNN
-F 1 "100k" V 3125 1500 50  0000 R CNN
+F 1 "OPEN" V 3200 1450 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3130 1375 50  0001 C CNN
 F 3 "~" H 3200 1375 50  0001 C CNN
 	1    3200 1375
@@ -574,17 +574,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 2325 3725 2325
 Connection ~ 3600 2325
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV102
-U 1 1 5C9DCD9C
-P 1700 3775
-F 0 "RV102" V 1493 3775 50  0000 C CNN
-F 1 "10k Sine" V 1584 3775 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 1700 3775 50  0001 C CNN
-F 3 "" H 1700 3775 50  0001 C CNN
-	1    1700 3775
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2900 3575 2775 3575
 Wire Wire Line
@@ -593,15 +582,6 @@ Wire Wire Line
 	2775 3075 3125 3075
 Text GLabel 1250 3775 0    50   Input ~ 0
 Tri
-Wire Wire Line
-	1250 3775 1475 3775
-Wire Wire Line
-	1700 3925 1475 3925
-Wire Wire Line
-	1475 3925 1475 3775
-Connection ~ 1475 3775
-Wire Wire Line
-	1475 3775 1550 3775
 $Comp
 L Device:R R109
 U 1 1 5C9F4C89
@@ -655,8 +635,6 @@ F 3 "~" H 1925 4000 50  0001 C CNN
 	1    1925 4000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1850 3775 1925 3775
 Wire Wire Line
 	1925 3850 1925 3775
 Connection ~ 1925 3775
@@ -955,7 +933,7 @@ L Device:R R?
 U 1 1 5D9A7602
 P 6525 1350
 F 0 "R?" V 6318 1350 50  0000 C CNN
-F 1 "100r" V 6409 1350 50  0000 C CNN
+F 1 "470r" V 6525 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6455 1350 50  0001 C CNN
 F 3 "~" H 6525 1350 50  0001 C CNN
 	1    6525 1350
@@ -968,4 +946,19 @@ Wire Wire Line
 Connection ~ 7100 1200
 Wire Wire Line
 	7100 1200 7100 1350
+Wire Wire Line
+	1250 3775 1500 3775
+$Comp
+L Device:R R?
+U 1 1 5DA379BA
+P 1650 3775
+F 0 "R?" V 1800 3800 50  0000 R CNN
+F 1 "4k7" V 1650 3825 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1580 3775 50  0001 C CNN
+F 3 "~" H 1650 3775 50  0001 C CNN
+	1    1650 3775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 3775 1925 3775
 $EndSCHEMATC
