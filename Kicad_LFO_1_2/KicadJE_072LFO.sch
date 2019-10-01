@@ -432,7 +432,7 @@ AR Path="/5C9524A4" Ref="J?"  Part="1"
 AR Path="/5C92EC55/5C9524A4" Ref="J303"  Part="1" 
 F 0 "J303" H 2845 6675 50  0000 R CNN
 F 1 "LFO_SQ" H 2845 6584 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 3025 6650 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 3025 6650 50  0001 C CNN
 F 3 "~" H 3025 6650 50  0001 C CNN
 	1    3025 6650
 	-1   0    0    -1  
@@ -462,7 +462,7 @@ AR Path="/5C9524C8" Ref="J?"  Part="1"
 AR Path="/5C92EC55/5C9524C8" Ref="J302"  Part="1" 
 F 0 "J302" H 1695 6675 50  0000 R CNN
 F 1 "Tri" H 1695 6584 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 1875 6650 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 1875 6650 50  0001 C CNN
 F 3 "~" H 1875 6650 50  0001 C CNN
 	1    1875 6650
 	-1   0    0    -1  
@@ -475,7 +475,7 @@ AR Path="/5C9524CE" Ref="J?"  Part="1"
 AR Path="/5C92EC55/5C9524CE" Ref="J304"  Part="1" 
 F 0 "J304" H 1695 7075 50  0000 R CNN
 F 1 "Sine" H 1695 6984 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 1875 7050 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 1875 7050 50  0001 C CNN
 F 3 "~" H 1875 7050 50  0001 C CNN
 	1    1875 7050
 	-1   0    0    -1  

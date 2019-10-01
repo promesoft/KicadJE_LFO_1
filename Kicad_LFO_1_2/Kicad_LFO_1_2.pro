@@ -1,4 +1,4 @@
-update=19/03/2019 22:34:15
+update=01/10/2019 20:35:54
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Kicad_LFO_1.net
+LastNetListRead=Kicad_LFO_1_2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -57,7 +57,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Power

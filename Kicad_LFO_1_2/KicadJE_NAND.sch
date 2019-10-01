@@ -814,7 +814,7 @@ U 1 1 5D96AC97
 P 5350 2975
 F 0 "U401" H 5350 3300 50  0000 C CNN
 F 1 "4011" H 5350 3209 50  0000 C CNN
-F 2 "" H 5350 2975 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5350 2975 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5350 2975 50  0001 C CNN
 	1    5350 2975
 	1    0    0    -1  
@@ -825,7 +825,7 @@ U 2 1 5D9749D3
 P 5325 4200
 F 0 "U401" H 5325 4525 50  0000 C CNN
 F 1 "4011" H 5325 4434 50  0000 C CNN
-F 2 "" H 5325 4200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5325 4200 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5325 4200 50  0001 C CNN
 	2    5325 4200
 	1    0    0    -1  
@@ -836,7 +836,7 @@ U 4 1 5D97954C
 P 5975 4175
 F 0 "U401" H 5975 4500 50  0000 C CNN
 F 1 "4011" H 5975 4409 50  0000 C CNN
-F 2 "" H 5975 4175 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5975 4175 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5975 4175 50  0001 C CNN
 	4    5975 4175
 	1    0    0    -1  
@@ -847,7 +847,7 @@ U 3 1 5D97D1CB
 P 5575 5175
 F 0 "U401" H 5575 5500 50  0000 C CNN
 F 1 "4011" H 5575 5409 50  0000 C CNN
-F 2 "" H 5575 5175 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5575 5175 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5575 5175 50  0001 C CNN
 	3    5575 5175
 	1    0    0    -1  
@@ -858,7 +858,7 @@ U 5 1 5D97F218
 P 1000 1375
 F 0 "U401" H 1230 1421 50  0000 L CNN
 F 1 "4011" H 1230 1330 50  0000 L CNN
-F 2 "" H 1000 1375 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1000 1375 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 1000 1375 50  0001 C CNN
 	5    1000 1375
 	1    0    0    -1  
