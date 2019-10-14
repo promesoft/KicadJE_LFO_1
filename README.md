@@ -1,16 +1,28 @@
 
-# Johansen Engineering KiCadJE_LFO_1
+# Johansen Engineering KiCadJE_LFO_1.2 (Rev B)
 
-Analogue LFO - minor adjustments - new jacks (PJ321 -> pj324)
-555 Based LFO - minor adjustments - new jacks (PJ321 -> pj324)
+Analogue LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove Sine Adj
+555 Based LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove XXX
 NAND - Footprint adj
+
+# Purpose
+Fix issues with RevA
+# Status - In the mail
+## Initial 
+| Stage  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| create material  | sch/pcb | OK  |
+| | gerber | OK |
+| production  |   | OK |
+|  | produced | Yes |
+|  | delivered | In the mail |
 
 # Johansen Engineering KiCadJE_LFO_1
 Initial Analogue LFO
 
 # Purpose
 
-# Status - PCB's being mounted
+# Status - Evaluated
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
