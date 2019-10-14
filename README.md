@@ -1,5 +1,11 @@
 
 # Johansen Engineering KiCadJE_LFO_1
+
+Analogue LFO - minor adjustments - new jacks (PJ321 -> pj324)
+555 Based LFO - minor adjustments - new jacks (PJ321 -> pj324)
+NAND - Footprint adj
+
+# Johansen Engineering KiCadJE_LFO_1
 Initial Analogue LFO
 
 # Purpose
