@@ -22,7 +22,7 @@ Fix issues with RevA
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | OK |
 | Initial Technical Test | LFO555 |  |
-| | | PJ321 should be 1 mm further from the front - footprint twist in the other jacks|
+| | | PJ321 should be 1 mm further from the front, center tap works - minor footprint twist in pj324|
 | Initial Technical Test | NAND |  |
 | | | cut power plane and add 20k across to fix not blowing other units due to hard pull up on tip.
 | Initial Product Test | LFO |  |
