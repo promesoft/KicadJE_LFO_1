@@ -15,8 +15,49 @@ Fix issues with RevA
 | | gerber | OK |
 | production  |   | OK |
 |  | produced | Yes |
-|  | delivered | In the mail |
+|  | delivered | OK |
 
+## Preliminary validation
+| Test  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| Initial Inspection | | OK |
+| Initial Technical Test | LFO555 |  |
+| | | PJ321 should be 1 mm further from the front - footprint twist in the other jacks|
+| Initial Technical Test | NAND |  |
+| | | cut power plane and add 20k across to fix not blowing other units due to hard pull up on tip.
+| Initial Product Test | LFO |  |
+| Initial Product Test | LFO555 | Sine and Tri not working - needs ac coupling from square - needs dc compensation |
+| Initial Product Test | MMX2 |   |
+| Initial Product Test | NAND | Now working with 4093 - needs pull up resistors and I/O protection |
+| Initial Product Test | FlipFlop |  |
+
+## Secondary validation
+| Test  | Detail | Status |
+| ------------- | ------------- |------------- |
+| Product Test | LFO | |
+| Product Test | LFO555 | working right - tri and sine needs tweaking of waveforms |
+| Product Test | MMX2 |  |
+| Product Test | NAND | working - see issues |
+| Product Test | FlipFlop | Working as intended except for LED's |
+| Quality | LFO | |
+| Quality | LFO555 | |
+| Quality | MMX2 | |
+| Quality | NAND |  |
+| Quality | FlipFlop | |
+| Long Term Product Test |  |  |
+| Power Draw |  | 
+
+## Errata
+### Errata - LFO555
+1 - SW101 too close to P101
+### Errata - MMX2
+1 - 1206 caps (C201+C202) are too close to the switch to mount both
+### Errata - Flip-Flop
+1 - LED positions swapped
+### Errata - NAND
+Will Never work - Footprint wrong so Input is directly coupled to output for some NAND's
+
+------------------------------------------------
 # Johansen Engineering KiCadJE_LFO_1
 Initial Analogue LFO
 
