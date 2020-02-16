@@ -233,14 +233,14 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5CB8BB74
-P 6200 2975
+P 7100 3400
 AR Path="/5CB8BB74" Ref="J?"  Part="1" 
 AR Path="/5CB6DC25/5CB8BB74" Ref="J402"  Part="1" 
-F 0 "J402" H 6020 3000 50  0000 R CNN
-F 1 "NAND_OUT" H 6020 2909 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 6200 2975 50  0001 C CNN
-F 3 "~" H 6200 2975 50  0001 C CNN
-	1    6200 2975
+F 0 "J402" H 6920 3425 50  0000 R CNN
+F 1 "NAND_OUT" H 6920 3334 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 7100 3400 50  0001 C CNN
+F 3 "~" H 7100 3400 50  0001 C CNN
+	1    7100 3400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -257,11 +257,7 @@ F 3 "" H 1775 3325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 2975 6000 2975
-Wire Wire Line
-	6000 2875 5750 2875
-Wire Wire Line
-	5750 2875 5750 3175
+	6550 3400 6900 3400
 Wire Wire Line
 	1625 3025 1775 3025
 Connection ~ 1775 3025
@@ -296,14 +292,14 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5CBAA4E8
-P 6825 4175
+P 7100 4150
 AR Path="/5CBAA4E8" Ref="J?"  Part="1" 
 AR Path="/5CB6DC25/5CBAA4E8" Ref="J405"  Part="1" 
-F 0 "J405" H 6645 4200 50  0000 R CNN
-F 1 "AND_OUT" H 6645 4109 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 6825 4175 50  0001 C CNN
-F 3 "~" H 6825 4175 50  0001 C CNN
-	1    6825 4175
+F 0 "J405" H 6920 4175 50  0000 R CNN
+F 1 "AND_OUT" H 6920 4084 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 7100 4150 50  0001 C CNN
+F 3 "~" H 7100 4150 50  0001 C CNN
+	1    7100 4150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -319,10 +315,6 @@ F 3 "" H 1750 4550 50  0001 C CNN
 	1    1750 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6275 4175 6625 4175
-Wire Wire Line
-	6625 4075 6375 4075
 Wire Wire Line
 	1600 4250 1750 4250
 Connection ~ 1750 4250
@@ -355,25 +347,25 @@ $EndComp
 Wire Wire Line
 	1750 3875 1600 3875
 Wire Wire Line
-	5675 4275 5675 4200
+	5750 4250 5750 4175
 Wire Wire Line
-	5625 4200 5675 4200
-Connection ~ 5675 4200
+	5700 4175 5750 4175
+Connection ~ 5750 4175
 Wire Wire Line
-	5675 4200 5675 4075
+	5750 4175 5750 4050
 Wire Wire Line
-	6375 4400 6375 4075
+	6450 4375 6450 4050
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5CBB94F4
-P 6400 5175
+P 7100 4900
 AR Path="/5CBB94F4" Ref="J?"  Part="1" 
 AR Path="/5CB6DC25/5CBB94F4" Ref="J407"  Part="1" 
-F 0 "J407" H 6220 5200 50  0000 R CNN
-F 1 "NOT_OUT" H 6220 5109 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 6400 5175 50  0001 C CNN
-F 3 "~" H 6400 5175 50  0001 C CNN
-	1    6400 5175
+F 0 "J407" H 6920 4925 50  0000 R CNN
+F 1 "NOT_OUT" H 6920 4834 50  0000 R CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 7100 4900 50  0001 C CNN
+F 3 "~" H 7100 4900 50  0001 C CNN
+	1    7100 4900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -390,19 +382,17 @@ F 3 "~" H 1575 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5225 5075 5275 5075
+	5300 4800 5350 4800
 Wire Wire Line
-	5225 5275 5275 5275
+	5300 5000 5350 5000
 Wire Wire Line
 	1775 5150 1875 5150
 Wire Wire Line
 	1875 5350 1775 5350
 Wire Wire Line
-	5875 5175 6200 5175
+	6900 4800 6750 4800
 Wire Wire Line
-	6200 5075 6050 5075
-Wire Wire Line
-	6050 5075 6050 5375
+	6750 4800 6750 5100
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CBC2C54
@@ -417,7 +407,7 @@ F 3 "" H 1875 5425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5225 5075 5225 5175
+	5300 4800 5300 4900
 Wire Wire Line
 	1875 5150 1875 5350
 Wire Wire Line
@@ -426,79 +416,79 @@ Connection ~ 1875 5350
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CBCF6E4
-P 5750 3175
+P 6025 3625
 AR Path="/5CBCF6E4" Ref="#PWR?"  Part="1" 
 AR Path="/5CB6DC25/5CBCF6E4" Ref="#PWR0410"  Part="1" 
-F 0 "#PWR0410" H 5750 2925 50  0001 C CNN
-F 1 "GND" H 5755 3002 50  0000 C CNN
-F 2 "" H 5750 3175 50  0001 C CNN
-F 3 "" H 5750 3175 50  0001 C CNN
-	1    5750 3175
+F 0 "#PWR0410" H 6025 3375 50  0001 C CNN
+F 1 "GND" H 6030 3452 50  0000 C CNN
+F 2 "" H 6025 3625 50  0001 C CNN
+F 3 "" H 6025 3625 50  0001 C CNN
+	1    6025 3625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CBCFB46
-P 6375 4400
+P 6450 4375
 AR Path="/5CBCFB46" Ref="#PWR?"  Part="1" 
 AR Path="/5CB6DC25/5CBCFB46" Ref="#PWR0412"  Part="1" 
-F 0 "#PWR0412" H 6375 4150 50  0001 C CNN
-F 1 "GND" H 6380 4227 50  0000 C CNN
-F 2 "" H 6375 4400 50  0001 C CNN
-F 3 "" H 6375 4400 50  0001 C CNN
-	1    6375 4400
+F 0 "#PWR0412" H 6450 4125 50  0001 C CNN
+F 1 "GND" H 6455 4202 50  0000 C CNN
+F 2 "" H 6450 4375 50  0001 C CNN
+F 3 "" H 6450 4375 50  0001 C CNN
+	1    6450 4375
 	1    0    0    -1  
 $EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CBCFFB9
-P 6050 5375
+P 6750 5100
 AR Path="/5CBCFFB9" Ref="#PWR?"  Part="1" 
 AR Path="/5CB6DC25/5CBCFFB9" Ref="#PWR0414"  Part="1" 
-F 0 "#PWR0414" H 6050 5125 50  0001 C CNN
-F 1 "GND" H 6055 5202 50  0000 C CNN
-F 2 "" H 6050 5375 50  0001 C CNN
-F 3 "" H 6050 5375 50  0001 C CNN
-	1    6050 5375
+F 0 "#PWR0414" H 6750 4850 50  0001 C CNN
+F 1 "GND" H 6755 4927 50  0000 C CNN
+F 2 "" H 6750 5100 50  0001 C CNN
+F 3 "" H 6750 5100 50  0001 C CNN
+	1    6750 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4825 4100 0    50   Input ~ 0
+Text GLabel 4900 4075 0    50   Input ~ 0
 AND_IN1
 Text GLabel 2600 3975 2    50   Input ~ 0
 AND_IN1
 Text GLabel 2600 4350 2    50   Input ~ 0
 AND_IN2
-Text GLabel 4825 4300 0    50   Input ~ 0
+Text GLabel 4900 4275 0    50   Input ~ 0
 AND_IN2
 Wire Wire Line
 	1600 3975 1750 3975
 Wire Wire Line
 	1600 4350 1750 4350
 Wire Wire Line
-	4825 4100 5025 4100
+	4900 4075 5100 4075
 Wire Wire Line
-	4825 4300 5025 4300
-Text GLabel 4700 2875 0    50   Input ~ 0
+	4900 4275 5100 4275
+Text GLabel 4975 3300 0    50   Input ~ 0
 NAND_IN1
 Text GLabel 2475 2750 2    50   Input ~ 0
 NAND_IN1
 Text GLabel 2475 3125 2    50   Input ~ 0
 NAND_IN2
-Text GLabel 4700 3075 0    50   Input ~ 0
+Text GLabel 4975 3500 0    50   Input ~ 0
 NAND_IN2
 Wire Wire Line
-	4700 2875 5050 2875
+	4975 3300 5325 3300
 Wire Wire Line
-	5050 3075 4700 3075
+	5325 3500 4975 3500
 Text GLabel 2650 5250 2    50   Input ~ 0
 NOT_IN
-Text GLabel 4825 5175 0    50   Input ~ 0
+Text GLabel 4900 4900 0    50   Input ~ 0
 NOT_IN
 Wire Wire Line
-	4825 5175 5225 5175
-Connection ~ 5225 5175
+	4900 4900 5300 4900
+Connection ~ 5300 4900
 Wire Wire Line
-	5225 5175 5225 5275
+	5300 4900 5300 5000
 $Comp
 L Diode:MRA4007T3G D403
 U 1 1 5CBE305A
@@ -811,45 +801,45 @@ Wire Wire Line
 $Comp
 L 4xxx:4011 U401
 U 1 1 5D96AC97
-P 5350 2975
-F 0 "U401" H 5350 3300 50  0000 C CNN
-F 1 "4011" H 5350 3209 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5350 2975 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5350 2975 50  0001 C CNN
-	1    5350 2975
+P 5625 3400
+F 0 "U401" H 5625 3400 50  0000 C CNN
+F 1 "4011" H 5625 3634 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5625 3400 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5625 3400 50  0001 C CNN
+	1    5625 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4011 U401
 U 2 1 5D9749D3
-P 5325 4200
-F 0 "U401" H 5325 4525 50  0000 C CNN
-F 1 "4011" H 5325 4434 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5325 4200 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5325 4200 50  0001 C CNN
-	2    5325 4200
+P 5400 4175
+F 0 "U401" H 5400 4175 50  0000 C CNN
+F 1 "4011" H 5400 4409 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5400 4175 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5400 4175 50  0001 C CNN
+	2    5400 4175
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4011 U401
 U 4 1 5D97954C
-P 5975 4175
-F 0 "U401" H 5975 4500 50  0000 C CNN
-F 1 "4011" H 5975 4409 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5975 4175 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5975 4175 50  0001 C CNN
-	4    5975 4175
+P 6050 4150
+F 0 "U401" H 6050 4150 50  0000 C CNN
+F 1 "4011" H 6050 4384 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6050 4150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 6050 4150 50  0001 C CNN
+	4    6050 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4011 U401
 U 3 1 5D97D1CB
-P 5575 5175
-F 0 "U401" H 5575 5500 50  0000 C CNN
-F 1 "4011" H 5575 5409 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5575 5175 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5575 5175 50  0001 C CNN
-	3    5575 5175
+P 5650 4900
+F 0 "U401" H 5650 4900 50  0000 C CNN
+F 1 "4011" H 5650 5134 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 4900 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf" H 5650 4900 50  0001 C CNN
+	3    5650 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -863,4 +853,65 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	5    1000 1375
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6025 3300 6025 3625
+Wire Wire Line
+	6025 3300 6900 3300
+$Comp
+L Device:R R?
+U 1 1 5E4C6AD9
+P 6400 3400
+AR Path="/5E4C6AD9" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5E4C6AD9" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5E4C6AD9" Ref="R?"  Part="1" 
+AR Path="/5CB6DC25/5E4C6AD9" Ref="R?"  Part="1" 
+F 0 "R?" V 6193 3400 50  0000 C CNN
+F 1 "470R" V 6400 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 3400 50  0001 C CNN
+F 3 "~" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5925 3400 6250 3400
+Wire Wire Line
+	6450 4050 6900 4050
+Wire Wire Line
+	6350 4150 6500 4150
+Wire Wire Line
+	5950 4900 6400 4900
+$Comp
+L Device:R R?
+U 1 1 5E4FFE1B
+P 6650 4150
+AR Path="/5E4FFE1B" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5E4FFE1B" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5E4FFE1B" Ref="R?"  Part="1" 
+AR Path="/5CB6DC25/5E4FFE1B" Ref="R?"  Part="1" 
+F 0 "R?" V 6443 4150 50  0000 C CNN
+F 1 "470R" V 6650 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6580 4150 50  0001 C CNN
+F 3 "~" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 4150 6900 4150
+$Comp
+L Device:R R?
+U 1 1 5E5003DB
+P 6550 4900
+AR Path="/5E5003DB" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5E5003DB" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5E5003DB" Ref="R?"  Part="1" 
+AR Path="/5CB6DC25/5E5003DB" Ref="R?"  Part="1" 
+F 0 "R?" V 6343 4900 50  0000 C CNN
+F 1 "470R" V 6550 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 4900 50  0001 C CNN
+F 3 "~" H 6550 4900 50  0001 C CNN
+	1    6550 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4900 6900 4900
 $EndSCHEMATC
