@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Kicad_LFO_1_2-cache
+LIBS:Kicad_LFO_1_3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268

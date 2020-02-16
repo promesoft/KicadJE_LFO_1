@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Kicad_LFO_1_2-cache
+LIBS:Kicad_LFO_1_3-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -494,14 +494,14 @@ Text GLabel 4075 3675 2    50   Input ~ 0
 Sine
 Text GLabel 4100 2325 2    50   Input ~ 0
 Tri
-Text GLabel 2500 2225 0    50   Input ~ 0
+Text GLabel 1975 2225 0    50   Input ~ 0
 Square
 $Comp
 L Device:C C106
 U 1 1 5C9C3CF6
 P 3200 1675
 F 0 "C106" V 3315 1721 50  0000 L CNN
-F 1 "470n" V 3325 1525 50  0000 L CNN
+F 1 "1u" V 3325 1525 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 1525 50  0001 C CNN
 F 3 "~" H 3200 1675 50  0001 C CNN
 	1    3200 1675
@@ -518,14 +518,12 @@ F 3 "~" H 3200 1375 50  0001 C CNN
 	1    3200 1375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2500 2225 2525 2225
 $Comp
 L Device:R R106
 U 1 1 5C9CE563
 P 2675 2225
 F 0 "R106" V 2825 2250 50  0000 R CNN
-F 1 "10k" V 2605 2270 50  0000 R CNN
+F 1 "10k" V 2675 2300 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2605 2225 50  0001 C CNN
 F 3 "~" H 2675 2225 50  0001 C CNN
 	1    2675 2225
@@ -961,4 +959,38 @@ F 3 "~" H 1650 3775 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 3775 1925 3775
+$Comp
+L Device:C C?
+U 1 1 5E4928FB
+P 2250 2225
+F 0 "C?" V 2365 2271 50  0000 L CNN
+F 1 "4u7" V 2375 2075 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 2075 50  0001 C CNN
+F 3 "~" H 2250 2225 50  0001 C CNN
+	1    2250 2225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1975 2225 2100 2225
+Wire Wire Line
+	2400 2225 2425 2225
+$Comp
+L Device:R R?
+U 1 1 5E498E29
+P 2625 2425
+F 0 "R?" V 2525 2600 50  0000 R CNN
+F 1 "OPEN" V 2625 2500 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2555 2425 50  0001 C CNN
+F 3 "~" H 2625 2425 50  0001 C CNN
+	1    2625 2425
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2775 2425
+Wire Wire Line
+	2475 2425 2425 2425
+Wire Wire Line
+	2425 2425 2425 2225
+Connection ~ 2425 2225
+Wire Wire Line
+	2425 2225 2525 2225
 $EndSCHEMATC
