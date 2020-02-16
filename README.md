@@ -2,7 +2,9 @@
 # Johansen Engineering KiCadJE_LFO_1.2 (Rev B)
 
 Analogue LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove Sine Adj
+
 555 Based LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove XXX
+
 NAND - Footprint adj
 
 # Purpose
