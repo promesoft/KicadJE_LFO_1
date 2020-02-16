@@ -9,6 +9,30 @@ NAND - Footprint adj
 
 # Purpose
 Fix issues with RevA
+
+## 555 LFO
++/- 10V LFO Square, Triangle, Sine
+
+2 frequency ranges
+
+## LFO
++/- 10V LFO Square, Triangle, Sine
+
+## NAND
+NOT Gate (pull dn) - NAND Gate (both pull up) - AND Gate (both pull up)
+
+0-10V output - CMOS input
+
+## D-Flip Flop
+0-10V output - CMOS input
+
+## MMX
++-10V Input/output
+
+Top - 3 input mixer with phase reversal
+
+Bottom - 3 mult output with phase reversal - uses mixer output as input if not applied to mult input
+
 # Status - In the mail
 ## Initial 
 | Stage  | Detail | Status |
@@ -50,14 +74,32 @@ Fix issues with RevA
 | Power Draw |  | 
 
 ## Errata
+### Errata - LFO
+
 ### Errata - LFO555
-1 - SW101 too close to P101
+
 ### Errata - MMX2
-1 - 1206 caps (C201+C202) are too close to the switch to mount both
+
 ### Errata - Flip-Flop
-1 - LED positions swapped
+
 ### Errata - NAND
-Will Never work - Footprint wrong so Input is directly coupled to output for some NAND's
+Hard pull up to 12 can fry other units !!! Add resistor pull up
+
+Output protection (series resistor?)
+
+## Issues and Notes
+### LFO
+
+### 555 LFO
+AC coupling of Square should be considered - internal and at least DC adj external
+
+bias current compensation (eg. 10k to GND)
+
+### Flip-Flop
+
+### MMX2
+
+### NAND
 
 ------------------------------------------------
 # Johansen Engineering KiCadJE_LFO_1
