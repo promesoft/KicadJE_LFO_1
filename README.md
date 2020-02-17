@@ -2,11 +2,37 @@
 # Johansen Engineering KiCadJE_LFO_1.2 (Rev B)
 
 Analogue LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove Sine Adj
+
 555 Based LFO - minor adjustments - new jacks (PJ321 -> pj324) - remove XXX
+
 NAND - Footprint adj
 
 # Purpose
 Fix issues with RevA
+
+## 555 LFO
++/- 10V LFO Square, Triangle, Sine
+
+2 frequency ranges
+
+## LFO
++/- 10V LFO Square, Triangle, Sine
+
+## NAND
+NOT Gate (pull dn) - NAND Gate (both pull up) - AND Gate (both pull up)
+
+0-10V output - CMOS input
+
+## D-Flip Flop
+0-10V output - CMOS input
+
+## MMX
++-10V Input/output
+
+Top - 3 input mixer with phase reversal
+
+Bottom - 3 mult output with phase reversal - uses mixer output as input if not applied to mult input
+
 # Status - In the mail
 ## Initial 
 | Stage  | Detail | Status |
@@ -15,8 +41,67 @@ Fix issues with RevA
 | | gerber | OK |
 | production  |   | OK |
 |  | produced | Yes |
-|  | delivered | In the mail |
+|  | delivered | OK |
 
+## Preliminary validation
+| Test  | Detail | Status |
+| ------------- | ------------- | ------------- |
+| Initial Inspection | | OK |
+| Initial Technical Test | LFO555 |  |
+| | | PJ321 should be 1 mm further from the front, center tap works - minor footprint twist in pj324|
+| Initial Technical Test | NAND |  |
+| | | cut power plane and add 20k across to fix not blowing other units due to hard pull up on tip.
+| Initial Product Test | LFO |  |
+| Initial Product Test | LFO555 | Sine and Tri not working - needs ac coupling from square - needs dc compensation |
+| Initial Product Test | MMX2 |   |
+| Initial Product Test | NAND | Now working with 4093 - needs pull up resistors and I/O protection |
+| Initial Product Test | FlipFlop |  |
+
+## Secondary validation
+| Test  | Detail | Status |
+| ------------- | ------------- |------------- |
+| Product Test | LFO | |
+| Product Test | LFO555 | working right - tri and sine needs tweaking of waveforms |
+| Product Test | MMX2 |  |
+| Product Test | NAND | working - see issues |
+| Product Test | FlipFlop | Working as intended except for LED's |
+| Quality | LFO | |
+| Quality | LFO555 | |
+| Quality | MMX2 | |
+| Quality | NAND |  |
+| Quality | FlipFlop | |
+| Long Term Product Test |  |  |
+| Power Draw |  | 
+
+## Errata
+### Errata - LFO
+
+### Errata - LFO555
+
+### Errata - MMX2
+
+### Errata - Flip-Flop
+
+### Errata - NAND
+Hard pull up to 12 can fry other units !!! Add resistor pull up
+
+Output protection (series resistor?)
+
+## Issues and Notes
+### LFO
+
+### 555 LFO
+AC coupling of Square should be considered - internal and at least DC adj external
+
+bias current compensation (eg. 10k to GND)
+
+### Flip-Flop
+
+### MMX2
+
+### NAND
+
+------------------------------------------------
 # Johansen Engineering KiCadJE_LFO_1
 Initial Analogue LFO
 
