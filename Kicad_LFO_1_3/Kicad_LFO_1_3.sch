@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer:LM555 U101
+L Kicad_LFO_1_3-rescue:LM555-Timer U101
 U 1 1 5C8C1824
 P 6350 1800
 F 0 "U101" H 6350 2378 50  0000 C CNN

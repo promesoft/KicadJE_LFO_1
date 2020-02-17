@@ -353,8 +353,6 @@ Wire Wire Line
 Connection ~ 5750 4175
 Wire Wire Line
 	5750 4175 5750 4050
-Wire Wire Line
-	6450 4375 6450 4050
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5CBB94F4
@@ -413,32 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	1875 5425 1875 5375
 Connection ~ 1875 5350
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
-U 1 1 5CBCF6E4
-P 6025 3625
-AR Path="/5CBCF6E4" Ref="#PWR?"  Part="1" 
-AR Path="/5CB6DC25/5CBCF6E4" Ref="#PWR0410"  Part="1" 
-F 0 "#PWR0410" H 6025 3375 50  0001 C CNN
-F 1 "GND" H 6030 3452 50  0000 C CNN
-F 2 "" H 6025 3625 50  0001 C CNN
-F 3 "" H 6025 3625 50  0001 C CNN
-	1    6025 3625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
-U 1 1 5CBCFB46
-P 6450 4375
-AR Path="/5CBCFB46" Ref="#PWR?"  Part="1" 
-AR Path="/5CB6DC25/5CBCFB46" Ref="#PWR0412"  Part="1" 
-F 0 "#PWR0412" H 6450 4125 50  0001 C CNN
-F 1 "GND" H 6455 4202 50  0000 C CNN
-F 2 "" H 6450 4375 50  0001 C CNN
-F 3 "" H 6450 4375 50  0001 C CNN
-	1    6450 4375
-	1    0    0    -1  
-$EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
 U 1 1 5CBCFFB9
@@ -851,10 +823,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms
 	5    1000 1375
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6025 3300 6025 3625
-Wire Wire Line
-	6025 3300 6900 3300
 $Comp
 L Device:R R?
 U 1 1 5E4C6AD9
@@ -873,28 +841,22 @@ $EndComp
 Wire Wire Line
 	5925 3400 6250 3400
 Wire Wire Line
-	6450 4050 6900 4050
-Wire Wire Line
-	6350 4150 6500 4150
-Wire Wire Line
 	5950 4900 6400 4900
 $Comp
 L Device:R R?
 U 1 1 5E4FFE1B
-P 6650 4150
+P 6550 4150
 AR Path="/5E4FFE1B" Ref="R?"  Part="1" 
 AR Path="/5C8C5FC0/5E4FFE1B" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/5E4FFE1B" Ref="R?"  Part="1" 
 AR Path="/5CB6DC25/5E4FFE1B" Ref="R?"  Part="1" 
-F 0 "R?" V 6443 4150 50  0000 C CNN
-F 1 "470R" V 6650 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6580 4150 50  0001 C CNN
-F 3 "~" H 6650 4150 50  0001 C CNN
-	1    6650 4150
+F 0 "R?" V 6343 4150 50  0000 C CNN
+F 1 "470R" V 6550 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 4150 50  0001 C CNN
+F 3 "~" H 6550 4150 50  0001 C CNN
+	1    6550 4150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6800 4150 6900 4150
 $Comp
 L Device:R R?
 U 1 1 5E5003DB
@@ -948,4 +910,18 @@ F 3 "~" H 2300 3725 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 3725 2575 3725
+Wire Wire Line
+	6750 4800 6750 4050
+Connection ~ 6750 4800
+Connection ~ 6750 4050
+Wire Wire Line
+	6750 4050 6900 4050
+Wire Wire Line
+	6750 4050 6750 3300
+Wire Wire Line
+	6750 3300 6900 3300
+Wire Wire Line
+	6350 4150 6400 4150
+Wire Wire Line
+	6700 4150 6900 4150
 $EndSCHEMATC
