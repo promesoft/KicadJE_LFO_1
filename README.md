@@ -98,8 +98,11 @@ bias current compensation (eg. 10k to GND)
 ### Flip-Flop
 
 ### MMX2
-
 ### NAND
+
+# Pictures
+## MMX2
+![](Kicad_LFO_1_3/MMX_Sch.png)
 
 ------------------------------------------------
 # Johansen Engineering KiCadJE_LFO_1
