@@ -27,7 +27,7 @@ NOT Gate (pull dn) - NAND Gate (both pull up) - AND Gate (both pull up)
 0-10V output - CMOS input
 
 ## MMX
-+-10V Input/output
++-10V Input/output - DC couple
 
 Top - 3 input mixer with phase reversal
 
